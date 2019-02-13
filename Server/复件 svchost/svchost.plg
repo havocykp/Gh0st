@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: svchost - Win32 Console--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14B.tmp" with contents
+[
+/nologo /MT /w /W0 /GX /O2 /I "../../common" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FR"svchost___Win32_Console/" /Fo"svchost___Win32_Console/" /Fd"svchost___Win32_Console/" /FD /c 
+"E:\VC\Save\候鸟\候鸟\源代码\Src\远控源代码\gh0st 3.6源代码\gh0st3[1].6_src\Server\svchost\svchost.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib shell32.lib Shlwapi.lib ../../common/zlib/zlib.lib /nologo /subsystem:console /incremental:no /pdb:"svchost___Win32_Console/svchost_console.pdb" /machine:I386 /out:"../../Bin/svchost_console.exe" /pdbtype:sept 
+".\svchost___Win32_Console\Audio.obj"
+".\svchost___Win32_Console\AudioManager.obj"
+".\svchost___Win32_Console\Buffer.obj"
+".\svchost___Win32_Console\ClientSocket.obj"
+".\svchost___Win32_Console\Dialupass.obj"
+".\svchost___Win32_Console\FileManager.obj"
+".\svchost___Win32_Console\install.obj"
+".\svchost___Win32_Console\KernelManager.obj"
+".\svchost___Win32_Console\KeyboardManager.obj"
+".\svchost___Win32_Console\Manager.obj"
+".\svchost___Win32_Console\RegEditEx.obj"
+".\svchost___Win32_Console\ScreenManager.obj"
+".\svchost___Win32_Console\ScreenSpy.obj"
+".\svchost___Win32_Console\ShellManager.obj"
+".\svchost___Win32_Console\svchost.obj"
+".\svchost___Win32_Console\SystemManager.obj"
+".\svchost___Win32_Console\until.obj"
+".\svchost___Win32_Console\VideoCap.obj"
+".\svchost___Win32_Console\VideoManager.obj"
+".\svchost___Win32_Console\svchost.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14C.tmp"
+<h3>Output Window</h3>
+Compiling...
+svchost.cpp
+Linking...
+   Creating library ../../Bin/svchost_console.lib and object ../../Bin/svchost_console.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP150.tmp" with contents
+[
+/nologo /o"svchost___Win32_Console/svchost.bsc" 
+".\svchost___Win32_Console\Audio.sbr"
+".\svchost___Win32_Console\AudioManager.sbr"
+".\svchost___Win32_Console\Buffer.sbr"
+".\svchost___Win32_Console\ClientSocket.sbr"
+".\svchost___Win32_Console\Dialupass.sbr"
+".\svchost___Win32_Console\FileManager.sbr"
+".\svchost___Win32_Console\install.sbr"
+".\svchost___Win32_Console\KernelManager.sbr"
+".\svchost___Win32_Console\KeyboardManager.sbr"
+".\svchost___Win32_Console\Manager.sbr"
+".\svchost___Win32_Console\RegEditEx.sbr"
+".\svchost___Win32_Console\ScreenManager.sbr"
+".\svchost___Win32_Console\ScreenSpy.sbr"
+".\svchost___Win32_Console\ShellManager.sbr"
+".\svchost___Win32_Console\svchost.sbr"
+".\svchost___Win32_Console\SystemManager.sbr"
+".\svchost___Win32_Console\until.sbr"
+".\svchost___Win32_Console\VideoCap.sbr"
+".\svchost___Win32_Console\VideoManager.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP150.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+svchost_console.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

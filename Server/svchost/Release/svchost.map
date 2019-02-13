@@ -1,0 +1,1745 @@
+ svchost
+
+ Timestamp is 4cc65bd0 (Tue Oct 26 12:40:48 2010)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010a20H .text                   CODE
+ 0001:00010a20 00000485H .text$x                 CODE
+ 0002:00000000 000004c0H .idata$5                DATA
+ 0002:000004c0 00000e34H .rdata                  DATA
+ 0002:000012f8 00000044H .rdata$r                DATA
+ 0002:00001340 00000818H .xdata$x                DATA
+ 0002:00001b58 00000140H .idata$2                DATA
+ 0002:00001c98 00000014H .idata$3                DATA
+ 0002:00001cac 000004c0H .idata$4                DATA
+ 0002:0000216c 000015d4H .idata$6                DATA
+ 0002:00003740 0000005eH .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCU                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00001a50H .data                   DATA
+ 0003:00001a70 00000688H .bss                    DATA
+ 0004:00000000 00000058H .rsrc$01                DATA
+ 0004:00000060 000003f0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ??0CAudio@@QAE@XZ          10001000 f   Audio.obj
+ 0001:000000d0       ??_GCAudio@@UAEPAXI@Z      100010d0 f i Audio.obj
+ 0001:000000d0       ??_ECAudio@@UAEPAXI@Z      100010d0 f i Audio.obj
+ 0001:000000f0       ??1CAudio@@UAE@XZ          100010f0 f   Audio.obj
+ 0001:000001e0       ?getRecordBuffer@CAudio@@QAEPAEPAK@Z 100011e0 f   Audio.obj
+ 0001:00000240       ?playBuffer@CAudio@@QAE_NPAEK@Z 10001240 f   Audio.obj
+ 0001:000002c0       ?InitializeWaveIn@CAudio@@AAE_NXZ 100012c0 f   Audio.obj
+ 0001:00000390       ?InitializeWaveOut@CAudio@@AAE_NXZ 10001390 f   Audio.obj
+ 0001:00000430       ?waveInCallBack@CAudio@@CGKPAX@Z 10001430 f   Audio.obj
+ 0001:000004f0       ??0CAudioManager@@QAE@PAVCClientSocket@@@Z 100014f0 f   AudioManager.obj
+ 0001:00000580       ??_ECAudioManager@@UAEPAXI@Z 10001580 f i AudioManager.obj
+ 0001:00000580       ??_GCAudioManager@@UAEPAXI@Z 10001580 f i AudioManager.obj
+ 0001:000005a0       ??1CAudioManager@@UAE@XZ   100015a0 f   AudioManager.obj
+ 0001:00000610       ?Initialize@CAudioManager@@AAE_NXZ 10001610 f   AudioManager.obj
+ 0001:000006a0       ?sendRecordBuffer@CAudioManager@@QAEHXZ 100016a0 f   AudioManager.obj
+ 0001:00000740       ?OnReceive@CAudioManager@@UAEXPAEI@Z 10001740 f   AudioManager.obj
+ 0001:00000770       ?WorkThread@CAudioManager@@CGKPAX@Z 10001770 f   AudioManager.obj
+ 0001:000007a0       ??0CBuffer@@QAE@XZ         100017a0 f   Buffer.obj
+ 0001:000007d0       ??_ECBuffer@@UAEPAXI@Z     100017d0 f i Buffer.obj
+ 0001:000007d0       ??_GCBuffer@@UAEPAXI@Z     100017d0 f i Buffer.obj
+ 0001:000007f0       ??1CBuffer@@UAE@XZ         100017f0 f   Buffer.obj
+ 0001:00000820       ?Write@CBuffer@@QAEHPAEI@Z 10001820 f   Buffer.obj
+ 0001:000008a0       ?Read@CBuffer@@QAEIPAEI@Z  100018a0 f   Buffer.obj
+ 0001:00000950       ?GetMemSize@CBuffer@@IAEIXZ 10001950 f   Buffer.obj
+ 0001:00000960       ?GetBufferLen@CBuffer@@QAEIXZ 10001960 f   Buffer.obj
+ 0001:00000970       ?ReAllocateBuffer@CBuffer@@IAEII@Z 10001970 f   Buffer.obj
+ 0001:00000a40       ?DeAllocateBuffer@CBuffer@@IAEII@Z 10001a40 f   Buffer.obj
+ 0001:00000b10       ?ClearBuffer@CBuffer@@QAEXXZ 10001b10 f   Buffer.obj
+ 0001:00000b40       ?GetBuffer@CBuffer@@QAEPAEI@Z 10001b40 f   Buffer.obj
+ 0001:00000b50       ??0CClientSocket@@QAE@XZ   10001b50 f   ClientSocket.obj
+ 0001:00000c30       ??_ECClientSocket@@UAEPAXI@Z 10001c30 f i ClientSocket.obj
+ 0001:00000c30       ??_GCClientSocket@@UAEPAXI@Z 10001c30 f i ClientSocket.obj
+ 0001:00000c50       ??1CClientSocket@@UAE@XZ   10001c50 f   ClientSocket.obj
+ 0001:00000d10       ?Connect@CClientSocket@@QAE_NPBDI@Z 10001d10 f   ClientSocket.obj
+ 0001:00000eb0       ?ConnectProxyServer@CClientSocket@@AAE_NPBDI@Z 10001eb0 f   ClientSocket.obj
+ 0001:000011c0       ?WorkThread@CClientSocket@@CGKPAX@Z 100021c0 f   ClientSocket.obj
+ 0001:000012a0       ?run_event_loop@CClientSocket@@QAEXXZ 100022a0 f   ClientSocket.obj
+ 0001:000012b0       ?IsRunning@CClientSocket@@QAE_NXZ 100022b0 f   ClientSocket.obj
+ 0001:000012c0       ?OnRead@CClientSocket@@QAEXPAEK@Z 100022c0 f   ClientSocket.obj
+ 0001:00001500       ?Disconnect@CClientSocket@@QAEXXZ 10002500 f   ClientSocket.obj
+ 0001:00001580       ?Send@CClientSocket@@QAEHPAEI@Z 10002580 f   ClientSocket.obj
+ 0001:00001700       ?SendWithSplit@CClientSocket@@AAEHPAEII@Z 10002700 f   ClientSocket.obj
+ 0001:000017b0       ?setManagerCallBack@CClientSocket@@QAEXPAVCManager@@@Z 100027b0 f   ClientSocket.obj
+ 0001:000017c0       ?setGlobalProxyOption@CClientSocket@@QAEXHPBDI00@Z 100027c0 f   ClientSocket.obj
+ 0001:00001840       ??0CDialupass@@QAE@XZ      10002840 f   Dialupass.obj
+ 0001:000018a0       ??_GCDialupass@@UAEPAXI@Z  100028a0 f i Dialupass.obj
+ 0001:000018a0       ??_ECDialupass@@UAEPAXI@Z  100028a0 f i Dialupass.obj
+ 0001:000018c0       ??1CDialupass@@UAE@XZ      100028c0 f   Dialupass.obj
+ 0001:00001910       ?GetRasEntryCount@CDialupass@@AAEKXZ 10002910 f   Dialupass.obj
+ 0001:00001a40       ?GetLocalSid@CDialupass@@AAEPADXZ 10002a40 f   Dialupass.obj
+ 0001:00001af0       ?AnsiStringToLsaStr@CDialupass@@AAEXPADPAU_LSA_UNICODE_STRING@@@Z 10002af0 f   Dialupass.obj
+ 0001:00001b40       ?GetLsaData@CDialupass@@AAEPAU_LSA_UNICODE_STRING@@PAD@Z 10002b40 f   Dialupass.obj
+ 0001:00001bd0       ?ParseLsaBuffer@CDialupass@@AAEXPBGG@Z 10002bd0 f   Dialupass.obj
+ 0001:00001d60       ?GetLsaPasswords@CDialupass@@AAEXXZ 10002d60 f   Dialupass.obj
+ 0001:00001e40       ?GetRasEntries@CDialupass@@AAE_NXZ 10002e40 f   Dialupass.obj
+ 0001:00002150       ?Set@CDialupass@@AAEHPAD00000@Z 10003150 f   Dialupass.obj
+ 0001:00002500       ?Set@COneInfo@@QAEXHPAD@Z  10003500 f i Dialupass.obj
+ 0001:00002570       ??_GCOneInfo@@UAEPAXI@Z    10003570 f i Dialupass.obj
+ 0001:00002570       ??_ECOneInfo@@UAEPAXI@Z    10003570 f i Dialupass.obj
+ 0001:000025b0       ?UTF8ToGB2312@CDialupass@@AAEPBDQAD@Z 100035b0 f   Dialupass.obj
+ 0001:00002630       ??0CFileManager@@QAE@PAVCClientSocket@@@Z 10003630 f   FileManager.obj
+ 0001:000026b0       ??_GCFileManager@@UAEPAXI@Z 100036b0 f i FileManager.obj
+ 0001:000026b0       ??_ECFileManager@@UAEPAXI@Z 100036b0 f i FileManager.obj
+ 0001:000026d0       ??1CFileManager@@UAE@XZ    100036d0 f   FileManager.obj
+ 0001:000027d0       ?OnReceive@CFileManager@@UAEXPAEI@Z 100037d0 f   FileManager.obj
+ 0001:000028f0       ?MakeSureDirectoryPathExists@CFileManager@@AAE_NPBD@Z 100038f0 f   FileManager.obj
+ 0001:00002a70       ?OpenFile@CFileManager@@AAE_NPBDH@Z 10003a70 f   FileManager.obj
+ 0001:00002c50       ?SendDriveList@CFileManager@@QAEIXZ 10003c50 f   FileManager.obj
+ 0001:00002e10       ?SendFilesList@CFileManager@@AAEIPBD@Z 10003e10 f   FileManager.obj
+ 0001:00002fe0       ?DeleteDirectory@CFileManager@@AAE_NPBD@Z 10003fe0 f   FileManager.obj
+ 0001:000030c0       ?SendFileSize@CFileManager@@AAEIPBD@Z 100040c0 f   FileManager.obj
+ 0001:000031c0       ?SendFileData@CFileManager@@AAEIPAE@Z 100041c0 f   FileManager.obj
+ 0001:000032a0       ?UploadNext@CFileManager@@AAEXXZ 100042a0 f   FileManager.obj
+ 0001:00003310       ?SendToken@CFileManager@@AAEHE@Z 10004310 f   FileManager.obj
+ 0001:00003320       ?UploadToRemote@CFileManager@@AAE_NPAE@Z 10004320 f   FileManager.obj
+ 0001:00003450       ?FixedUploadList@CFileManager@@AAE_NPBD@Z 10004450 f   FileManager.obj
+ 0001:00003680       ?StopTransfer@CFileManager@@AAEXXZ 10004680 f   FileManager.obj
+ 0001:00003740       ?CreateLocalRecvFile@CFileManager@@AAEXPAE@Z 10004740 f   FileManager.obj
+ 0001:00003800       ?GetFileData@CFileManager@@AAEXXZ 10004800 f   FileManager.obj
+ 0001:00003920       ?WriteLocalRecvFile@CFileManager@@AAEXPAEI@Z 10004920 f   FileManager.obj
+ 0001:000039c0       ?SetTransferMode@CFileManager@@AAEXPAE@Z 100049c0 f   FileManager.obj
+ 0001:000039e0       ?CreateFolder@CFileManager@@AAEXPAE@Z 100049e0 f   FileManager.obj
+ 0001:00003a00       ?Rename@CFileManager@@AAEXPAE@Z 10004a00 f   FileManager.obj
+ 0001:00003a30       ??1?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ 10004a30 f i FileManager.obj
+ 0001:00003a90       ?_Buynode@?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEPAU_Node@12@PAU312@0@Z 10004a90 f i FileManager.obj
+ 0001:00003ac0       ??Eiterator@?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV012@H@Z 10004ac0 f i FileManager.obj
+ 0001:00003ad0       ?deallocate@?$allocator@D@std@@QAEXPAXI@Z 10004ad0 f i FileManager.obj
+ 0001:00003ae0       ?_Construct@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV21@@Z 10004ae0 f i FileManager.obj
+ 0001:00003c50       ??3@YAXPAX0@Z              10004c50 f i FileManager.obj
+ 0001:00003c60       ??_G?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPAXI@Z 10004c60 f i FileManager.obj
+ 0001:00003cc0       ?RemoveService@@YAXPBD@Z   10004cc0 f   install.obj
+ 0001:00003df0       ?DeleteInstallFile@@YAXPAD@Z 10004df0 f   install.obj
+ 0001:00003eb0       ?memfind@@YAHPBD0HH@Z      10004eb0 f   install.obj
+ 0001:00003f10       ?FindConfigString@@YAPBDPAUHINSTANCE__@@PBD@Z 10004f10 f   install.obj
+ 0001:00003fe0       ?ReConfigService@@YAXPAD@Z 10004fe0 f   install.obj
+ 0001:00004100       ?QueryServiceTypeFromRegedit@@YAKPAD@Z 10005100 f   install.obj
+ 0001:00004220       ?Loop_FileManager@@YGKI@Z  10005220 f   KernelManager.obj
+ 0001:00004300       ?Loop_ShellManager@@YGKI@Z 10005300 f   KernelManager.obj
+ 0001:000043e0       ?Loop_ScreenManager@@YGKI@Z 100053e0 f   KernelManager.obj
+ 0001:000044c0       ?Loop_VideoManager@@YGKI@Z 100054c0 f   KernelManager.obj
+ 0001:000045a0       ?Loop_AudioManager@@YGKI@Z 100055a0 f   KernelManager.obj
+ 0001:00004680       ?Loop_HookKeyboard@@YGKJ@Z 10005680 f   KernelManager.obj
+ 0001:00004700       ?Loop_KeyboardManager@@YGKI@Z 10005700 f   KernelManager.obj
+ 0001:000047e0       ?Loop_SystemManager@@YGKI@Z 100057e0 f   KernelManager.obj
+ 0001:000048c0       ?Loop_DownManager@@YGKPAX@Z 100058c0 f   KernelManager.obj
+ 0001:00004980       ?UpdateServer@@YA_NPBD@Z   10005980 f   KernelManager.obj
+ 0001:00004a10       ?OpenURL@@YA_NPBDH@Z       10005a10 f   KernelManager.obj
+ 0001:00004b10       ?CleanEvent@@YAXXZ         10005b10 f   KernelManager.obj
+ 0001:00004b80       ?SetHostID@@YAXPBD0@Z      10005b80 f   KernelManager.obj
+ 0001:00004bf0       ?EnableDebugPriv@@YA_NXZ   10005bf0 f   KernelManager.obj
+ 0001:00004ca0       ?MyFunc@@YGKPAX@Z          10005ca0 f   KernelManager.obj
+ 0001:00004d50       ?InjectRemoveService@@YA_NPBDPAD@Z 10005d50 f   KernelManager.obj
+ 0001:00004f40       ??0CKernelManager@@QAE@PAVCClientSocket@@PBDK11I@Z 10005f40 f   KernelManager.obj
+ 0001:00005020       ??_GCKernelManager@@UAEPAXI@Z 10006020 f i KernelManager.obj
+ 0001:00005020       ??_ECKernelManager@@UAEPAXI@Z 10006020 f i KernelManager.obj
+ 0001:00005040       ??1CKernelManager@@UAE@XZ  10006040 f   KernelManager.obj
+ 0001:00005090       ?OnReceive@CKernelManager@@UAEXPAEI@Z 10006090 f   KernelManager.obj
+ 0001:000052b0       ?UnInstallService@CKernelManager@@QAEXXZ 100062b0 f   KernelManager.obj
+ 0001:000053b0       ?IsActived@CKernelManager@@QAE_NXZ 100063b0 f   KernelManager.obj
+ 0001:000053e0       ??0CKeyboardManager@@QAE@PAVCClientSocket@@@Z 100063e0 f   KeyboardManager.obj
+ 0001:000054c0       ??_GCKeyboardManager@@UAEPAXI@Z 100064c0 f i KeyboardManager.obj
+ 0001:000054c0       ??_ECKeyboardManager@@UAEPAXI@Z 100064c0 f i KeyboardManager.obj
+ 0001:000054e0       ??1CKeyboardManager@@UAE@XZ 100064e0 f   KeyboardManager.obj
+ 0001:000054f0       ?SaveToFile@CKeyboardManager@@CAXPAD@Z 100064f0 f   KeyboardManager.obj
+ 0001:000055a0       ?SaveInfo@CKeyboardManager@@CAXPAD@Z 100065a0 f   KeyboardManager.obj
+ 0001:00005700       ?GetMsgProc@CKeyboardManager@@CGJHIJ@Z 10006700 f   KeyboardManager.obj
+ 0001:00005890       ?OnReceive@CKeyboardManager@@UAEXPAEI@Z 10006890 f   KeyboardManager.obj
+ 0001:00005940       ?Initialization@CKeyboardManager@@SA_NXZ 10006940 f   KeyboardManager.obj
+ 0001:00005a10       ?BuildRestrictedSD@CShareRestrictedSD@@QAEPAXPAX@Z 10006a10 f i KeyboardManager.obj
+ 0001:00005b50       ??_ECShareRestrictedSD@@UAEPAXI@Z 10006b50 f i KeyboardManager.obj
+ 0001:00005b50       ??_GCShareRestrictedSD@@UAEPAXI@Z 10006b50 f i KeyboardManager.obj
+ 0001:00005b90       ?StartHook@CKeyboardManager@@SA_NXZ 10006b90 f   KeyboardManager.obj
+ 0001:00005c80       ?StopHook@CKeyboardManager@@SAXXZ 10006c80 f   KeyboardManager.obj
+ 0001:00005cd0       ?sendStartKeyBoard@CKeyboardManager@@AAEHXZ 10006cd0 f   KeyboardManager.obj
+ 0001:00005cf0       ?sendKeyBoardData@CKeyboardManager@@AAEHPAEI@Z 10006cf0 f   KeyboardManager.obj
+ 0001:00005d50       ?sendOfflineRecord@CKeyboardManager@@AAEHXZ 10006d50 f   KeyboardManager.obj
+ 0001:00005e10       ??0CManager@@QAE@PAVCClientSocket@@@Z 10006e10 f   Manager.obj
+ 0001:00005e40       ??_ECManager@@UAEPAXI@Z    10006e40 f i Manager.obj
+ 0001:00005e40       ??_GCManager@@UAEPAXI@Z    10006e40 f i Manager.obj
+ 0001:00005e60       ??1CManager@@UAE@XZ        10006e60 f   Manager.obj
+ 0001:00005e80       ?OnReceive@CManager@@UAEXPAEI@Z 10006e80 f   Manager.obj
+ 0001:00005e90       ?Send@CManager@@QAEHPAEI@Z 10006e90 f   Manager.obj
+ 0001:00005f00       ?WaitForDialogOpen@CManager@@QAEXXZ 10006f00 f   Manager.obj
+ 0001:00005f20       ?NotifyDialogIsOpen@CManager@@QAEXXZ 10006f20 f   Manager.obj
+ 0001:00005f30       ?DelSpace@@YAPADPAD@Z      10006f30 f   RegEditEx.obj
+ 0001:00005f60       ?ReadRegEx@@YAHPAUHKEY__@@PBD1KPADPAEKH@Z 10006f60 f   RegEditEx.obj
+ 0001:00006400       ?WriteRegEx@@YAHPAUHKEY__@@PBD1KPADKH@Z 10007400 f   RegEditEx.obj
+ 0001:00006590       ??0CScreenManager@@QAE@PAVCClientSocket@@@Z 10007590 f   ScreenManager.obj
+ 0001:00006720       ??1CCursorInfo@@UAE@XZ     10007720 f i ScreenManager.obj
+ 0001:00006750       ??_ECCursorInfo@@UAEPAXI@Z 10007750 f i ScreenManager.obj
+ 0001:00006750       ??_GCCursorInfo@@UAEPAXI@Z 10007750 f i ScreenManager.obj
+ 0001:00006790       ??_GCScreenManager@@UAEPAXI@Z 10007790 f i ScreenManager.obj
+ 0001:00006790       ??_ECScreenManager@@UAEPAXI@Z 10007790 f i ScreenManager.obj
+ 0001:000067b0       ??1CScreenManager@@UAE@XZ  100077b0 f   ScreenManager.obj
+ 0001:00006870       ?ResetScreen@CScreenManager@@AAEXH@Z 10007870 f   ScreenManager.obj
+ 0001:000069b0       ?OnReceive@CScreenManager@@UAEXPAEI@Z 100079b0 f   ScreenManager.obj
+ 0001:00006b80       ?sendBITMAPINFO@CScreenManager@@QAEXXZ 10007b80 f   ScreenManager.obj
+ 0001:00006c00       ?sendFirstScreen@CScreenManager@@QAEXXZ 10007c00 f   ScreenManager.obj
+ 0001:00006c70       ?sendNextScreen@CScreenManager@@QAEXXZ 10007c70 f   ScreenManager.obj
+ 0001:00006ce0       ?WorkThread@CScreenManager@@CGKPAX@Z 10007ce0 f   ScreenManager.obj
+ 0001:00006d50       ?ControlThread@CScreenManager@@CGKPAX@Z 10007d50 f   ScreenManager.obj
+ 0001:00006e50       ?ProcessCommand@CScreenManager@@AAEXPAEI@Z 10007e50 f   ScreenManager.obj
+ 0001:00007030       ?UpdateLocalClipboard@CScreenManager@@AAEXPADH@Z 10008030 f   ScreenManager.obj
+ 0001:000070a0       ?SendLocalClipboard@CScreenManager@@AAEXXZ 100080a0 f   ScreenManager.obj
+ 0001:00007140       ?IsMetricsChange@CScreenManager@@QAE_NXZ 10008140 f   ScreenManager.obj
+ 0001:00007180       ?IsConnect@CScreenManager@@QAE_NXZ 10008180 f   ScreenManager.obj
+ 0001:00007190       ?GetCurrentPixelBits@CScreenManager@@QAEHXZ 10008190 f   ScreenManager.obj
+ 0001:000071a0       ??0CScreenSpy@@QAE@H_NI@Z  100081a0 f   ScreenSpy.obj
+ 0001:00007470       ??_ECScreenSpy@@UAEPAXI@Z  10008470 f i ScreenSpy.obj
+ 0001:00007470       ??_GCScreenSpy@@UAEPAXI@Z  10008470 f i ScreenSpy.obj
+ 0001:00007490       ??1CScreenSpy@@UAE@XZ      10008490 f   ScreenSpy.obj
+ 0001:00007570       ?getNextScreen@CScreenSpy@@QAEPAXPAK@Z 10008570 f   ScreenSpy.obj
+ 0001:00007730       ?ScanChangedRect@CScreenSpy@@AAE_NH@Z 10008730 f   ScreenSpy.obj
+ 0001:00007830       ?setAlgorithm@CScreenSpy@@QAEXI@Z 10008830 f   ScreenSpy.obj
+ 0001:00007850       ?ConstructBI@CScreenSpy@@AAEPAUtagBITMAPINFO@@HHH@Z 10008850 f   ScreenSpy.obj
+ 0001:00007970       ?WriteRectBuffer@CScreenSpy@@AAEXPAEH@Z 10008970 f   ScreenSpy.obj
+ 0001:000079b0       ?getFirstScreen@CScreenSpy@@QAEPAXXZ 100089b0 f   ScreenSpy.obj
+ 0001:000079e0       ?CopyRect@CScreenSpy@@AAEXPAUtagRECT@@@Z 100089e0 f   ScreenSpy.obj
+ 0001:00007ac0       ?getFirstImageSize@CScreenSpy@@QAEIXZ 10008ac0 f   ScreenSpy.obj
+ 0001:00007ad0       ?setCaptureLayer@CScreenSpy@@QAEX_N@Z 10008ad0 f   ScreenSpy.obj
+ 0001:00007af0       ?getBI@CScreenSpy@@QAEPAUtagBITMAPINFO@@XZ 10008af0 f   ScreenSpy.obj
+ 0001:00007b00       ?getBISize@CScreenSpy@@QAEIXZ 10008b00 f   ScreenSpy.obj
+ 0001:00007b30       ?SelectInputWinStation@CScreenSpy@@AAE_NXZ 10008b30 f   ScreenSpy.obj
+ 0001:00007b70       ?ScanScreen@CScreenSpy@@AAEXPAUHDC__@@0HH@Z 10008b70 f   ScreenSpy.obj
+ 0001:00007bd0       ?Compare@CScreenSpy@@AAEHPAE00K@Z 10008bd0 f   ScreenSpy.obj
+ 0001:00007c80       ??0CShellManager@@QAE@PAVCClientSocket@@@Z 10008c80 f   ShellManager.obj
+ 0001:00007ee0       ??_ECShellManager@@UAEPAXI@Z 10008ee0 f i ShellManager.obj
+ 0001:00007ee0       ??_GCShellManager@@UAEPAXI@Z 10008ee0 f i ShellManager.obj
+ 0001:00007f00       ??1CShellManager@@UAE@XZ   10008f00 f   ShellManager.obj
+ 0001:00007fc0       ?OnReceive@CShellManager@@UAEXPAEI@Z 10008fc0 f   ShellManager.obj
+ 0001:00008000       ?ReadPipeThread@CShellManager@@CGKPAX@Z 10009000 f   ShellManager.obj
+ 0001:000080c0       ?MonitorThread@CShellManager@@CGKPAX@Z 100090c0 f   ShellManager.obj
+ 0001:00008110       ?base64_decode@@YAHPBDPAPAD@Z 10009110 f   svchost.obj
+ 0001:00008270       ?MyDecode@@YAPADPAD@Z      10009270 f   svchost.obj
+ 0001:000082c0       ?SplitLoginInfo@@YAXPADPAPADPAK1211@Z 100092c0 f   svchost.obj
+ 0001:000083e0       ?getLoginInfo@@YA_NPADPAPADPAK1211@Z 100093e0 f   svchost.obj
+ 0001:000085c0       ?CPUClockMhz@@YAKXZ        100095c0 f   svchost.obj
+ 0001:00008620       ?IsWebCam@@YA_NXZ          10009620 f   svchost.obj
+ 0001:00008660       ?GetHostRemark@@YAIPBDPADI@Z 10009660 f   svchost.obj
+ 0001:00008700       ?sendLoginInfo@@YAHPBDPAVCClientSocket@@K@Z 10009700 f   svchost.obj
+ 0001:000087f0       ?ModifyFromResource@@YAHPAUHINSTANCE__@@GPBD1@Z 100097f0 f   svchost.obj
+ 0001:00008890       ?SetProc@@YAHPAXKPAK@Z     10009890 f   svchost.obj
+ 0001:000088d0       ?GetHeaders@@YAKPADPAPAU_IMAGE_FILE_HEADER@@PAPAU_IMAGE_OPTIONAL_HEADER@@PAPAU_IMAGE_SECTION_HEADER@@@Z 100098d0 f   svchost.obj
+ 0001:00008930       ?FindKiServiceTable@@YAKPAUHINSTANCE__@@K@Z 10009930 f   svchost.obj
+ 0001:00008a20       ?ReSSDT@@YAXPAX@Z          10009a20 f   svchost.obj
+ 0001:00008b60       ?StopService@@YAXPBD@Z     10009b60 f   svchost.obj
+ 0001:00008bb0       ?StartServiceA@@YAXPBD@Z   10009bb0 f   svchost.obj
+ 0001:00008c00       ?FileToBuffer@@YAPAEPBDPAK@Z 10009c00 f   svchost.obj
+ 0001:00008c80       ?LoadDriver@@YAPAXPAUHINSTANCE__@@@Z 10009c80 f   svchost.obj
+ 0001:00008da0       ?UnloadDriver@@YAXPAX@Z    10009da0 f   svchost.obj
+ 0001:00008e30       ?RestoreSSDT@@YA_NPAUHINSTANCE__@@@Z 10009e30 f   svchost.obj
+ 0001:00008e70       ?bad_exception@@YGJPAU_EXCEPTION_POINTERS@@@Z 10009e70 f   svchost.obj
+ 0001:00008eb0       _main@4                    10009eb0 f   svchost.obj
+ 0001:00009200       _DllMain@12                1000a200 f   svchost.obj
+ 0001:00009230       _ResetSSDT                 1000a230 f   svchost.obj
+ 0001:00009240       _ServiceMain               1000a240 f   svchost.obj
+ 0001:00009320       ?TellSCM@@YAHKKK@Z         1000a320 f   svchost.obj
+ 0001:00009380       ?ServiceHandler@@YGXK@Z    1000a380 f   svchost.obj
+ 0001:00009420       ??0CSystemManager@@QAE@PAVCClientSocket@@@Z 1000a420 f   SystemManager.obj
+ 0001:00009470       ??_ECSystemManager@@UAEPAXI@Z 1000a470 f i SystemManager.obj
+ 0001:00009470       ??_GCSystemManager@@UAEPAXI@Z 1000a470 f i SystemManager.obj
+ 0001:00009490       ??1CSystemManager@@UAE@XZ  1000a490 f   SystemManager.obj
+ 0001:000094a0       ?OnReceive@CSystemManager@@UAEXPAEI@Z 1000a4a0 f   SystemManager.obj
+ 0001:00009510       ?SendProcessList@CSystemManager@@AAEXXZ 1000a510 f   SystemManager.obj
+ 0001:00009540       ?SendWindowsList@CSystemManager@@AAEXXZ 1000a540 f   SystemManager.obj
+ 0001:00009570       ?SendDialupassList@CSystemManager@@AAEXXZ 1000a570 f   SystemManager.obj
+ 0001:000096a0       ?KillProcess@CSystemManager@@AAEXPAEI@Z 1000a6a0 f   SystemManager.obj
+ 0001:00009730       ?getProcessList@CSystemManager@@AAEPAEXZ 1000a730 f   SystemManager.obj
+ 0001:00009920       ?DebugPrivilege@CSystemManager@@SA_NPBDH@Z 1000a920 f   SystemManager.obj
+ 0001:000099b0       ?ShutdownWindows@CSystemManager@@SAXK@Z 1000a9b0 f   SystemManager.obj
+ 0001:000099e0       ?EnumWindowsProc@CSystemManager@@SG_NPAUHWND__@@J@Z 1000a9e0 f   SystemManager.obj
+ 0001:00009ab0       ?getWindowsList@CSystemManager@@AAEPAEXZ 1000aab0 f   SystemManager.obj
+ 0001:00009ae0       ?ThreadLoader@@YGIPAX@Z    1000aae0 f   until.obj
+ 0001:00009b60       ?MyCreateThread@@YAPAXPAU_SECURITY_ATTRIBUTES@@KP6GKPAX@Z1KPAK_N@Z 1000ab60 f   until.obj
+ 0001:00009be0       ?GetProcessID@@YAKPBD@Z    1000abe0 f   until.obj
+ 0001:00009c60       ?GetLogUserXP@@YAPADXZ     1000ac60 f   until.obj
+ 0001:00009cc0       ?GetLogUser2K@@YAPADXZ     1000acc0 f   until.obj
+ 0001:00009e40       ?GetCurrentLoginUser@@YAPADXZ 1000ae40 f   until.obj
+ 0001:00009ec0       ?SwitchInputDesktop@@YA_NXZ 1000aec0 f   until.obj
+ 0001:00009f90       ?SelectHDESK@@YAHPAUHDESK__@@@Z 1000af90 f   until.obj
+ 0001:0000a000       ?SelectDesktop@@YAHPAD@Z   1000b000 f   until.obj
+ 0001:0000a050       ?SimulateCtrlAltDel@@YAHXZ 1000b050 f   until.obj
+ 0001:0000a0a0       ?http_get@@YA_NPBD0@Z      1000b0a0 f   until.obj
+ 0001:0000a1d0       ??0CVideoCap@@QAE@XZ       1000b1d0 f   VideoCap.obj
+ 0001:0000a260       ??_ECVideoCap@@UAEPAXI@Z   1000b260 f i VideoCap.obj
+ 0001:0000a260       ??_GCVideoCap@@UAEPAXI@Z   1000b260 f i VideoCap.obj
+ 0001:0000a280       ??1CVideoCap@@UAE@XZ       1000b280 f   VideoCap.obj
+ 0001:0000a3a0       ?capErrorCallback@CVideoCap@@SGJPAUHWND__@@HPBD@Z 1000b3a0 f   VideoCap.obj
+ 0001:0000a3b0       ?FrameCallbackProc@CVideoCap@@SGJPAUHWND__@@PAUvideohdr_tag@@@Z 1000b3b0 f   VideoCap.obj
+ 0001:0000a410       ?IsWebCam@CVideoCap@@SA_NXZ 1000b410 f   VideoCap.obj
+ 0001:0000a460       ?GetDIB@CVideoCap@@QAEPAEXZ 1000b460 f   VideoCap.obj
+ 0001:0000a4a0       ?Initialize@CVideoCap@@QAE_NHH@Z 1000b4a0 f   VideoCap.obj
+ 0001:0000a6a0       ??0CVideoManager@@QAE@PAVCClientSocket@@@Z 1000b6a0 f   VideoManager.obj
+ 0001:0000a720       ??_GCVideoManager@@UAEPAXI@Z 1000b720 f i VideoManager.obj
+ 0001:0000a720       ??_ECVideoManager@@UAEPAXI@Z 1000b720 f i VideoManager.obj
+ 0001:0000a740       ??1CVideoManager@@UAE@XZ   1000b740 f   VideoManager.obj
+ 0001:0000a780       ?OnReceive@CVideoManager@@UAEXPAEI@Z 1000b780 f   VideoManager.obj
+ 0001:0000a7f0       ?sendBITMAPINFO@CVideoManager@@QAEXXZ 1000b7f0 f   VideoManager.obj
+ 0001:0000a840       ?sendNextScreen@CVideoManager@@QAEXXZ 1000b840 f   VideoManager.obj
+ 0001:0000a960       ?ResetScreen@CVideoManager@@AAEXHH@Z 1000b960 f   VideoManager.obj
+ 0001:0000a9c0       ?WorkThread@CVideoManager@@CGKPAX@Z 1000b9c0 f   VideoManager.obj
+ 0001:0000aa60       ?Initialize@CVideoManager@@QAE_NXZ 1000ba60 f   VideoManager.obj
+ 0001:0000aca0       ??_GCVideoCodec@@UAEPAXI@Z 1000bca0 f i VideoManager.obj
+ 0001:0000aca0       ??_ECVideoCodec@@UAEPAXI@Z 1000bca0 f i VideoManager.obj
+ 0001:0000acf0       ?Destroy@CVideoManager@@QAEXXZ 1000bcf0 f   VideoManager.obj
+ 0001:0000ad20       _Process32Next@8           1000bd20 f   kernel32:KERNEL32.dll
+ 0001:0000ad26       _Process32First@8          1000bd26 f   kernel32:KERNEL32.dll
+ 0001:0000ad2c       _CreateToolhelp32Snapshot@8 1000bd2c f   kernel32:KERNEL32.dll
+ 0001:0000ad32       _BlockInput@4              1000bd32 f   user32:USER32.dll
+ 0001:0000ad38       _LsaClose@4                1000bd38 f   advapi32:ADVAPI32.dll
+ 0001:0000ad3e       _LsaRetrievePrivateData@12 1000bd3e f   advapi32:ADVAPI32.dll
+ 0001:0000ad44       _LsaOpenPolicy@16          1000bd44 f   advapi32:ADVAPI32.dll
+ 0001:0000ad4a       _LsaFreeMemory@4           1000bd4a f   advapi32:ADVAPI32.dll
+ 0001:0000ad50       _uncompress                1000bd50 f   zlib:uncompr.obj
+ 0001:0000adf0       _compress2                 1000bdf0 f   zlib:compress.obj
+ 0001:0000aea0       _compress                  1000bea0 f   zlib:compress.obj
+ 0001:0000aec0       _inflateReset              1000bec0 f   zlib:inflate.obj
+ 0001:0000af10       _inflateEnd                1000bf10 f   zlib:inflate.obj
+ 0001:0000af60       _inflateInit2_             1000bf60 f   zlib:inflate.obj
+ 0001:0000b070       _inflateInit_              1000c070 f   zlib:inflate.obj
+ 0001:0000b090       _inflate                   1000c090 f   zlib:inflate.obj
+ 0001:0000b4c0       _deflateInit_              1000c4c0 f   zlib:deflate.obj
+ 0001:0000b4f0       _deflateInit2_             1000c4f0 f   zlib:deflate.obj
+ 0001:0000b6f0       _deflateReset              1000c6f0 f   zlib:deflate.obj
+ 0001:0000b770       _deflate                   1000c770 f   zlib:deflate.obj
+ 0001:0000bad0       _deflateEnd                1000cad0 f   zlib:deflate.obj
+ 0001:0000c800       _inflate_blocks_reset      1000d800 f   zlib:infblock.obj
+ 0001:0000c880       _inflate_blocks_new        1000d880 f   zlib:infblock.obj
+ 0001:0000c920       _inflate_blocks            1000d920 f   zlib:infblock.obj
+ 0001:0000d630       _inflate_blocks_free       1000e630 f   zlib:infblock.obj
+ 0001:0000d670       _adler32                   1000e670 f   zlib:adler32.obj
+ 0001:0000d7a0       _zcalloc                   1000e7a0 f   zlib:zutil.obj
+ 0001:0000d7c0       _zcfree                    1000e7c0 f   zlib:zutil.obj
+ 0001:0000d7d0       __tr_init                  1000e7d0 f   zlib:trees.obj
+ 0001:0000d8c0       __tr_stored_block          1000e8c0 f   zlib:trees.obj
+ 0001:0000d960       __tr_align                 1000e960 f   zlib:trees.obj
+ 0001:0000dbc0       __tr_flush_block           1000ebc0 f   zlib:trees.obj
+ 0001:0000f360       _inflate_codes_new         10010360 f   zlib:infcodes.obj
+ 0001:0000f3a0       _inflate_codes             100103a0 f   zlib:infcodes.obj
+ 0001:0000fb50       _inflate_codes_free        10010b50 f   zlib:infcodes.obj
+ 0001:0000fb70       _inflate_trees_bits        10010b70 f   zlib:inftrees.obj
+ 0001:000100e0       _inflate_trees_dynamic     100110e0 f   zlib:inftrees.obj
+ 0001:00010270       _inflate_trees_fixed       10011270 f   zlib:inftrees.obj
+ 0001:000102a0       _inflate_flush             100112a0 f   zlib:infutil.obj
+ 0001:000103e0       _inflate_fast              100113e0 f   zlib:inffast.obj
+ 0001:000107b0       ??2@YAPAXI@Z               100117b0 f   MSVCRT:MSVCRT.dll
+ 0001:000107b6       ??3@YAXPAX@Z               100117b6 f   MSVCRT:MSVCRT.dll
+ 0001:000107bc       ___CxxFrameHandler         100117bc f   MSVCRT:MSVCRT.dll
+ 0001:000107d0       __ftol                     100117d0 f   MSVCRT:MSVCRT.dll
+ 0001:000107e0       __chkstk                   100117e0 f   MSVCRT:chkstk.obj
+ 0001:000107e0       __alloca_probe             100117e0 f   MSVCRT:chkstk.obj
+ 0001:0001080f       ??_Gtype_info@@UAEPAXI@Z   1001180f f i MSVCRT:ti_inst.obj
+ 0001:0001080f       ??_Etype_info@@UAEPAXI@Z   1001180f f i MSVCRT:ti_inst.obj
+ 0001:0001082c       __CxxThrowException@8      1001182c f   MSVCRT:MSVCRT.dll
+ 0001:00010832       _free                      10011832 f   MSVCRT:MSVCRT.dll
+ 0001:00010838       __except_handler3          10011838 f   MSVCRT:MSVCRT.dll
+ 0001:00010840       __aullshr                  10011840 f   MSVCRT:ullshr.obj
+ 0001:0001085f       __CRT_INIT@12              1001185f f   MSVCRT:crtdll.obj
+ 0001:0001090a       __DllMainCRTStartup@12     1001190a f   MSVCRT:crtdll.obj
+ 0001:000109a8       _calloc                    100119a8 f   MSVCRT:MSVCRT.dll
+ 0001:000109ae       ??1type_info@@UAE@XZ       100119ae f   MSVCRT:MSVCRT.dll
+ 0001:000109b4       __initterm                 100119b4 f   MSVCRT:MSVCRT.dll
+ 0001:000109c0       _ImmReleaseContext@8       100119c0 f   Imm32:IMM32.dll
+ 0001:000109c6       _ImmGetCompositionStringA@16 100119c6 f   Imm32:IMM32.dll
+ 0001:000109cc       _ImmGetContext@4           100119cc f   Imm32:IMM32.dll
+ 0001:000109d2       _capGetDriverDescriptionA@20 100119d2 f   vfw32:AVICAP32.dll
+ 0001:000109d8       _capCreateCaptureWindowA@32 100119d8 f   vfw32:AVICAP32.dll
+ 0001:000109de       _ICSeqCompressFrame@20     100119de f   vfw32:MSVFW32.dll
+ 0001:000109e4       _ICSeqCompressFrameStart@8 100119e4 f   vfw32:MSVFW32.dll
+ 0001:000109ea       _ICSendMessage@16          100119ea f   vfw32:MSVFW32.dll
+ 0001:000109f0       _ICOpen@12                 100119f0 f   vfw32:MSVFW32.dll
+ 0001:000109f6       _ICClose@4                 100119f6 f   vfw32:MSVFW32.dll
+ 0001:000109fc       _ICCompressorFree@4        100119fc f   vfw32:MSVFW32.dll
+ 0001:00010a02       _ICSeqCompressFrameEnd@4   10011a02 f   vfw32:MSVFW32.dll
+ 0001:00010a08       _GetModuleFileNameExA@16   10011a08 f   Psapi:PSAPI.DLL
+ 0001:00010a0e       _EnumProcessModules@16     10011a0e f   Psapi:PSAPI.DLL
+ 0001:00010a14       _WTSFreeMemory@4           10011a14 f   Wtsapi32:WTSAPI32.dll
+ 0001:00010a1a       _WTSQuerySessionInformationA@20 10011a1a f   Wtsapi32:WTSAPI32.dll
+ 0002:00000000       __imp__LsaRetrievePrivateData@12 10012000     advapi32:ADVAPI32.dll
+ 0002:00000004       __imp__LsaClose@4          10012004     advapi32:ADVAPI32.dll
+ 0002:00000008       __imp__LookupAccountNameA@28 10012008     advapi32:ADVAPI32.dll
+ 0002:0000000c       __imp__IsValidSid@4        1001200c     advapi32:ADVAPI32.dll
+ 0002:00000010       __imp__GetTokenInformation@20 10012010     advapi32:ADVAPI32.dll
+ 0002:00000014       __imp__LookupAccountSidA@28 10012014     advapi32:ADVAPI32.dll
+ 0002:00000018       __imp__SetServiceStatus@8  10012018     advapi32:ADVAPI32.dll
+ 0002:0000001c       __imp__RegisterServiceCtrlHandlerA@8 1001201c     advapi32:ADVAPI32.dll
+ 0002:00000020       __imp__StartServiceA@12    10012020     advapi32:ADVAPI32.dll
+ 0002:00000024       __imp__RegCreateKeyExA@36  10012024     advapi32:ADVAPI32.dll
+ 0002:00000028       __imp__RegDeleteKeyA@8     10012028     advapi32:ADVAPI32.dll
+ 0002:0000002c       __imp__LsaOpenPolicy@16    1001202c     advapi32:ADVAPI32.dll
+ 0002:00000030       __imp__LsaFreeMemory@4     10012030     advapi32:ADVAPI32.dll
+ 0002:00000034       __imp__RegCloseKey@4       10012034     advapi32:ADVAPI32.dll
+ 0002:00000038       __imp__RegQueryValueA@16   10012038     advapi32:ADVAPI32.dll
+ 0002:0000003c       __imp__RegOpenKeyExA@20    1001203c     advapi32:ADVAPI32.dll
+ 0002:00000040       __imp__CloseServiceHandle@4 10012040     advapi32:ADVAPI32.dll
+ 0002:00000044       __imp__DeleteService@4     10012044     advapi32:ADVAPI32.dll
+ 0002:00000048       __imp__ControlService@12   10012048     advapi32:ADVAPI32.dll
+ 0002:0000004c       __imp__QueryServiceStatus@8 1001204c     advapi32:ADVAPI32.dll
+ 0002:00000050       __imp__OpenServiceA@12     10012050     advapi32:ADVAPI32.dll
+ 0002:00000054       __imp__OpenSCManagerA@12   10012054     advapi32:ADVAPI32.dll
+ 0002:00000058       __imp__RegSetValueExA@24   10012058     advapi32:ADVAPI32.dll
+ 0002:0000005c       __imp__RegCreateKeyA@12    1001205c     advapi32:ADVAPI32.dll
+ 0002:00000060       __imp__RegQueryValueExA@24 10012060     advapi32:ADVAPI32.dll
+ 0002:00000064       __imp__RegOpenKeyA@12      10012064     advapi32:ADVAPI32.dll
+ 0002:00000068       __imp__CloseEventLog@4     10012068     advapi32:ADVAPI32.dll
+ 0002:0000006c       __imp__ClearEventLogA@8    1001206c     advapi32:ADVAPI32.dll
+ 0002:00000070       __imp__OpenEventLogA@8     10012070     advapi32:ADVAPI32.dll
+ 0002:00000074       __imp__AdjustTokenPrivileges@24 10012074     advapi32:ADVAPI32.dll
+ 0002:00000078       __imp__LookupPrivilegeValueA@12 10012078     advapi32:ADVAPI32.dll
+ 0002:0000007c       __imp__OpenProcessToken@12 1001207c     advapi32:ADVAPI32.dll
+ 0002:00000080       __imp__FreeSid@4           10012080     advapi32:ADVAPI32.dll
+ 0002:00000084       __imp__SetSecurityDescriptorDacl@16 10012084     advapi32:ADVAPI32.dll
+ 0002:00000088       __imp__AddAccessAllowedAce@16 10012088     advapi32:ADVAPI32.dll
+ 0002:0000008c       __imp__InitializeAcl@12    1001208c     advapi32:ADVAPI32.dll
+ 0002:00000090       __imp__GetLengthSid@4      10012090     advapi32:ADVAPI32.dll
+ 0002:00000094       __imp__AllocateAndInitializeSid@44 10012094     advapi32:ADVAPI32.dll
+ 0002:00000098       __imp__InitializeSecurityDescriptor@8 10012098     advapi32:ADVAPI32.dll
+ 0002:0000009c       __imp__RegEnumValueA@32    1001209c     advapi32:ADVAPI32.dll
+ 0002:000000a0       __imp__RegEnumKeyExA@32    100120a0     advapi32:ADVAPI32.dll
+ 0002:000000a4       __imp__RegDeleteValueA@8   100120a4     advapi32:ADVAPI32.dll
+ 0002:000000a8       \177ADVAPI32_NULL_THUNK_DATA 100120a8     advapi32:ADVAPI32.dll
+ 0002:000000ac       __imp__capGetDriverDescriptionA@20 100120ac     vfw32:AVICAP32.dll
+ 0002:000000b0       __imp__capCreateCaptureWindowA@32 100120b0     vfw32:AVICAP32.dll
+ 0002:000000b4       \177AVICAP32_NULL_THUNK_DATA 100120b4     vfw32:AVICAP32.dll
+ 0002:000000b8       __imp__BitBlt@36           100120b8     gdi32:GDI32.dll
+ 0002:000000bc       __imp__CreateCompatibleDC@4 100120bc     gdi32:GDI32.dll
+ 0002:000000c0       __imp__CreateCompatibleBitmap@12 100120c0     gdi32:GDI32.dll
+ 0002:000000c4       __imp__CreateDIBSection@24 100120c4     gdi32:GDI32.dll
+ 0002:000000c8       __imp__GetDIBits@28        100120c8     gdi32:GDI32.dll
+ 0002:000000cc       __imp__DeleteObject@4      100120cc     gdi32:GDI32.dll
+ 0002:000000d0       __imp__SelectObject@8      100120d0     gdi32:GDI32.dll
+ 0002:000000d4       __imp__DeleteDC@4          100120d4     gdi32:GDI32.dll
+ 0002:000000d8       \177GDI32_NULL_THUNK_DATA  100120d8     gdi32:GDI32.dll
+ 0002:000000dc       __imp__ImmReleaseContext@8 100120dc     Imm32:IMM32.dll
+ 0002:000000e0       __imp__ImmGetContext@4     100120e0     Imm32:IMM32.dll
+ 0002:000000e4       __imp__ImmGetCompositionStringA@16 100120e4     Imm32:IMM32.dll
+ 0002:000000e8       \177IMM32_NULL_THUNK_DATA  100120e8     Imm32:IMM32.dll
+ 0002:000000ec       __imp__GetProcessHeap@0    100120ec     kernel32:KERNEL32.dll
+ 0002:000000f0       __imp__MapViewOfFile@20    100120f0     kernel32:KERNEL32.dll
+ 0002:000000f4       __imp__CreateFileMappingA@24 100120f4     kernel32:KERNEL32.dll
+ 0002:000000f8       __imp__HeapAlloc@12        100120f8     kernel32:KERNEL32.dll
+ 0002:000000fc       __imp__UnmapViewOfFile@4   100120fc     kernel32:KERNEL32.dll
+ 0002:00000100       __imp__GlobalFree@4        10012100     kernel32:KERNEL32.dll
+ 0002:00000104       __imp__GlobalUnlock@4      10012104     kernel32:KERNEL32.dll
+ 0002:00000108       __imp__GlobalLock@4        10012108     kernel32:KERNEL32.dll
+ 0002:0000010c       __imp__GlobalAlloc@8       1001210c     kernel32:KERNEL32.dll
+ 0002:00000110       __imp__GlobalSize@4        10012110     kernel32:KERNEL32.dll
+ 0002:00000114       __imp__GetStartupInfoA@4   10012114     kernel32:KERNEL32.dll
+ 0002:00000118       __imp__CreatePipe@16       10012118     kernel32:KERNEL32.dll
+ 0002:0000011c       __imp__DisconnectNamedPipe@4 1001211c     kernel32:KERNEL32.dll
+ 0002:00000120       __imp__TerminateProcess@8  10012120     kernel32:KERNEL32.dll
+ 0002:00000124       __imp__PeekNamedPipe@24    10012124     kernel32:KERNEL32.dll
+ 0002:00000128       __imp__WaitForMultipleObjects@16 10012128     kernel32:KERNEL32.dll
+ 0002:0000012c       __imp__SizeofResource@8    1001212c     kernel32:KERNEL32.dll
+ 0002:00000130       __imp__LoadResource@8      10012130     kernel32:KERNEL32.dll
+ 0002:00000134       __imp__OpenProcess@12      10012134     kernel32:KERNEL32.dll
+ 0002:00000138       __imp__HeapFree@12         10012138     kernel32:KERNEL32.dll
+ 0002:0000013c       __imp__LoadLibraryExA@12   1001213c     kernel32:KERNEL32.dll
+ 0002:00000140       __imp__GetModuleHandleA@4  10012140     kernel32:KERNEL32.dll
+ 0002:00000144       __imp__SetFileAttributesA@8 10012144     kernel32:KERNEL32.dll
+ 0002:00000148       __imp__ReleaseMutex@4      10012148     kernel32:KERNEL32.dll
+ 0002:0000014c       __imp__OpenEventA@12       1001214c     kernel32:KERNEL32.dll
+ 0002:00000150       __imp__SetErrorMode@4      10012150     kernel32:KERNEL32.dll
+ 0002:00000154       __imp__CreateMutexA@12     10012154     kernel32:KERNEL32.dll
+ 0002:00000158       __imp__SetUnhandledExceptionFilter@4 10012158     kernel32:KERNEL32.dll
+ 0002:0000015c       __imp__FreeConsole@0       1001215c     kernel32:KERNEL32.dll
+ 0002:00000160       __imp__LocalSize@4         10012160     kernel32:KERNEL32.dll
+ 0002:00000164       __imp__Process32Next@8     10012164     kernel32:KERNEL32.dll
+ 0002:00000168       __imp__Process32First@8    10012168     kernel32:KERNEL32.dll
+ 0002:0000016c       __imp__CreateToolhelp32Snapshot@8 1001216c     kernel32:KERNEL32.dll
+ 0002:00000170       __imp__lstrcmpiA@8         10012170     kernel32:KERNEL32.dll
+ 0002:00000174       __imp__GetCurrentThreadId@0 10012174     kernel32:KERNEL32.dll
+ 0002:00000178       __imp__VirtualAllocEx@20   10012178     kernel32:KERNEL32.dll
+ 0002:0000017c       __imp__WriteProcessMemory@20 1001217c     kernel32:KERNEL32.dll
+ 0002:00000180       __imp__CreateRemoteThread@28 10012180     kernel32:KERNEL32.dll
+ 0002:00000184       __imp__GetLocalTime@4      10012184     kernel32:KERNEL32.dll
+ 0002:00000188       __imp__GetTickCount@0      10012188     kernel32:KERNEL32.dll
+ 0002:0000018c       __imp__DeviceIoControl@32  1001218c     kernel32:KERNEL32.dll
+ 0002:00000190       __imp__MoveFileExA@12      10012190     kernel32:KERNEL32.dll
+ 0002:00000194       __imp__GetCurrentProcess@0 10012194     kernel32:KERNEL32.dll
+ 0002:00000198       __imp__GetSystemDirectoryA@8 10012198     kernel32:KERNEL32.dll
+ 0002:0000019c       __imp__SetLastError@4      1001219c     kernel32:KERNEL32.dll
+ 0002:000001a0       __imp__GetModuleFileNameA@12 100121a0     kernel32:KERNEL32.dll
+ 0002:000001a4       __imp__MoveFileA@8         100121a4     kernel32:KERNEL32.dll
+ 0002:000001a8       __imp__WriteFile@20        100121a8     kernel32:KERNEL32.dll
+ 0002:000001ac       __imp__SetFilePointer@16   100121ac     kernel32:KERNEL32.dll
+ 0002:000001b0       __imp__ReadFile@20         100121b0     kernel32:KERNEL32.dll
+ 0002:000001b4       __imp__CreateFileA@28      100121b4     kernel32:KERNEL32.dll
+ 0002:000001b8       __imp__GetFileSize@8       100121b8     kernel32:KERNEL32.dll
+ 0002:000001bc       __imp__RemoveDirectoryA@4  100121bc     kernel32:KERNEL32.dll
+ 0002:000001c0       __imp__LocalAlloc@8        100121c0     kernel32:KERNEL32.dll
+ 0002:000001c4       __imp__FindFirstFileA@8    100121c4     kernel32:KERNEL32.dll
+ 0002:000001c8       __imp__LocalReAlloc@12     100121c8     kernel32:KERNEL32.dll
+ 0002:000001cc       __imp__FindNextFileA@8     100121cc     kernel32:KERNEL32.dll
+ 0002:000001d0       __imp__LocalFree@4         100121d0     kernel32:KERNEL32.dll
+ 0002:000001d4       __imp__FindClose@4         100121d4     kernel32:KERNEL32.dll
+ 0002:000001d8       __imp__GetLogicalDriveStringsA@8 100121d8     kernel32:KERNEL32.dll
+ 0002:000001dc       __imp__GetVolumeInformationA@32 100121dc     kernel32:KERNEL32.dll
+ 0002:000001e0       __imp__GetDiskFreeSpaceExA@16 100121e0     kernel32:KERNEL32.dll
+ 0002:000001e4       __imp__GetDriveTypeA@4     100121e4     kernel32:KERNEL32.dll
+ 0002:000001e8       __imp__CreateProcessA@40   100121e8     kernel32:KERNEL32.dll
+ 0002:000001ec       __imp__GetFileAttributesA@4 100121ec     kernel32:KERNEL32.dll
+ 0002:000001f0       __imp__CreateDirectoryA@8  100121f0     kernel32:KERNEL32.dll
+ 0002:000001f4       __imp__GetLastError@0      100121f4     kernel32:KERNEL32.dll
+ 0002:000001f8       __imp__DeleteFileA@4       100121f8     kernel32:KERNEL32.dll
+ 0002:000001fc       __imp__GetVersionExA@4     100121fc     kernel32:KERNEL32.dll
+ 0002:00000200       __imp__GetPrivateProfileStringA@24 10012200     kernel32:KERNEL32.dll
+ 0002:00000204       __imp__lstrcmpA@8          10012204     kernel32:KERNEL32.dll
+ 0002:00000208       __imp__WideCharToMultiByte@32 10012208     kernel32:KERNEL32.dll
+ 0002:0000020c       __imp__MultiByteToWideChar@24 1001220c     kernel32:KERNEL32.dll
+ 0002:00000210       __imp__LoadLibraryA@4      10012210     kernel32:KERNEL32.dll
+ 0002:00000214       __imp__GetProcAddress@8    10012214     kernel32:KERNEL32.dll
+ 0002:00000218       __imp__FreeLibrary@4       10012218     kernel32:KERNEL32.dll
+ 0002:0000021c       __imp__GetWindowsDirectoryA@8 1001221c     kernel32:KERNEL32.dll
+ 0002:00000220       __imp__lstrcatA@8          10012220     kernel32:KERNEL32.dll
+ 0002:00000224       __imp__GetPrivateProfileSectionNamesA@12 10012224     kernel32:KERNEL32.dll
+ 0002:00000228       __imp__lstrlenA@4          10012228     kernel32:KERNEL32.dll
+ 0002:0000022c       __imp__Sleep@4             1001222c     kernel32:KERNEL32.dll
+ 0002:00000230       __imp__CancelIo@4          10012230     kernel32:KERNEL32.dll
+ 0002:00000234       __imp__InterlockedExchange@8 10012234     kernel32:KERNEL32.dll
+ 0002:00000238       __imp__lstrcpyA@8          10012238     kernel32:KERNEL32.dll
+ 0002:0000023c       __imp__ResetEvent@4        1001223c     kernel32:KERNEL32.dll
+ 0002:00000240       __imp__VirtualAlloc@16     10012240     kernel32:KERNEL32.dll
+ 0002:00000244       __imp__EnterCriticalSection@4 10012244     kernel32:KERNEL32.dll
+ 0002:00000248       __imp__LeaveCriticalSection@4 10012248     kernel32:KERNEL32.dll
+ 0002:0000024c       __imp__VirtualFree@12      1001224c     kernel32:KERNEL32.dll
+ 0002:00000250       __imp__DeleteCriticalSection@4 10012250     kernel32:KERNEL32.dll
+ 0002:00000254       __imp__CreateEventA@16     10012254     kernel32:KERNEL32.dll
+ 0002:00000258       __imp__InitializeCriticalSection@4 10012258     kernel32:KERNEL32.dll
+ 0002:0000025c       __imp__CreateThread@24     1001225c     kernel32:KERNEL32.dll
+ 0002:00000260       __imp__ResumeThread@4      10012260     kernel32:KERNEL32.dll
+ 0002:00000264       __imp__SetEvent@4          10012264     kernel32:KERNEL32.dll
+ 0002:00000268       __imp__WaitForSingleObject@8 10012268     kernel32:KERNEL32.dll
+ 0002:0000026c       __imp__TerminateThread@8   1001226c     kernel32:KERNEL32.dll
+ 0002:00000270       __imp__CloseHandle@4       10012270     kernel32:KERNEL32.dll
+ 0002:00000274       __imp__FindResourceA@12    10012274     kernel32:KERNEL32.dll
+ 0002:00000278       \177KERNEL32_NULL_THUNK_DATA 10012278     kernel32:KERNEL32.dll
+ 0002:0000027c       __imp_?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z 1001227c     msvcprt:MSVCP60.dll
+ 0002:00000280       __imp_?_C@?1??_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ@4DB 10012280     msvcprt:MSVCP60.dll
+ 0002:00000284       __imp_?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 10012284     msvcprt:MSVCP60.dll
+ 0002:00000288       __imp_?_Xran@std@@YAXXZ    10012288     msvcprt:MSVCP60.dll
+ 0002:0000028c       __imp_?_Split@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ 1001228c     msvcprt:MSVCP60.dll
+ 0002:00000290       __imp_?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z 10012290     msvcprt:MSVCP60.dll
+ 0002:00000294       __imp_?_Refcnt@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEAAEPBD@Z 10012294     msvcprt:MSVCP60.dll
+ 0002:00000298       __imp_?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z 10012298     msvcprt:MSVCP60.dll
+ 0002:0000029c       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 1001229c     msvcprt:MSVCP60.dll
+ 0002:000002a0       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 100122a0     msvcprt:MSVCP60.dll
+ 0002:000002a4       \177MSVCP60_NULL_THUNK_DATA 100122a4     msvcprt:MSVCP60.dll
+ 0002:000002a8       __imp___strnicmp           100122a8     MSVCRT:MSVCRT.dll
+ 0002:000002a8       __imp__strnicmp            100122a8     MSVCRT:MSVCRT.dll
+ 0002:000002ac       __imp___strcmpi            100122ac     MSVCRT:MSVCRT.dll
+ 0002:000002ac       __imp__strcmpi             100122ac     MSVCRT:MSVCRT.dll
+ 0002:000002b0       __imp___adjust_fdiv        100122b0     MSVCRT:MSVCRT.dll
+ 0002:000002b4       __imp___initterm           100122b4     MSVCRT:MSVCRT.dll
+ 0002:000002b8       __imp_??1type_info@@UAE@XZ 100122b8     MSVCRT:MSVCRT.dll
+ 0002:000002bc       __imp__calloc              100122bc     MSVCRT:MSVCRT.dll
+ 0002:000002c0       __imp___beginthreadex      100122c0     MSVCRT:MSVCRT.dll
+ 0002:000002c4       __imp__wcstombs            100122c4     MSVCRT:MSVCRT.dll
+ 0002:000002c8       __imp__atoi                100122c8     MSVCRT:MSVCRT.dll
+ 0002:000002cc       __imp__realloc             100122cc     MSVCRT:MSVCRT.dll
+ 0002:000002d0       __imp__strncat             100122d0     MSVCRT:MSVCRT.dll
+ 0002:000002d4       __imp__strncpy             100122d4     MSVCRT:MSVCRT.dll
+ 0002:000002d8       __imp__strrchr             100122d8     MSVCRT:MSVCRT.dll
+ 0002:000002dc       __imp___except_handler3    100122dc     MSVCRT:MSVCRT.dll
+ 0002:000002e0       __imp__free                100122e0     MSVCRT:MSVCRT.dll
+ 0002:000002e4       __imp__malloc              100122e4     MSVCRT:MSVCRT.dll
+ 0002:000002e8       __imp__strchr              100122e8     MSVCRT:MSVCRT.dll
+ 0002:000002ec       __imp___CxxThrowException@8 100122ec     MSVCRT:MSVCRT.dll
+ 0002:000002f0       __imp__strstr              100122f0     MSVCRT:MSVCRT.dll
+ 0002:000002f4       __imp___ftol               100122f4     MSVCRT:MSVCRT.dll
+ 0002:000002f8       __imp__ceil                100122f8     MSVCRT:MSVCRT.dll
+ 0002:000002fc       __imp__memmove             100122fc     MSVCRT:MSVCRT.dll
+ 0002:00000300       __imp____CxxFrameHandler   10012300     MSVCRT:MSVCRT.dll
+ 0002:00000304       __imp_??3@YAXPAX@Z         10012304     MSVCRT:MSVCRT.dll
+ 0002:00000308       __imp_??2@YAPAXI@Z         10012308     MSVCRT:MSVCRT.dll
+ 0002:0000030c       \177MSVCRT_NULL_THUNK_DATA 1001230c     MSVCRT:MSVCRT.dll
+ 0002:00000310       __imp__ICSeqCompressFrame@20 10012310     vfw32:MSVFW32.dll
+ 0002:00000314       __imp__ICSendMessage@16    10012314     vfw32:MSVFW32.dll
+ 0002:00000318       __imp__ICOpen@12           10012318     vfw32:MSVFW32.dll
+ 0002:0000031c       __imp__ICClose@4           1001231c     vfw32:MSVFW32.dll
+ 0002:00000320       __imp__ICCompressorFree@4  10012320     vfw32:MSVFW32.dll
+ 0002:00000324       __imp__ICSeqCompressFrameEnd@4 10012324     vfw32:MSVFW32.dll
+ 0002:00000328       __imp__ICSeqCompressFrameStart@8 10012328     vfw32:MSVFW32.dll
+ 0002:0000032c       \177MSVFW32_NULL_THUNK_DATA 1001232c     vfw32:MSVFW32.dll
+ 0002:00000330       __imp__EnumProcessModules@16 10012330     Psapi:PSAPI.DLL
+ 0002:00000334       __imp__GetModuleFileNameExA@16 10012334     Psapi:PSAPI.DLL
+ 0002:00000338       \177PSAPI_NULL_THUNK_DATA  10012338     Psapi:PSAPI.DLL
+ 0002:0000033c       __imp__SHGetFileInfoA@20   1001233c     shell32:SHELL32.dll
+ 0002:00000340       __imp__SHGetSpecialFolderPathA@16 10012340     shell32:SHELL32.dll
+ 0002:00000344       \177SHELL32_NULL_THUNK_DATA 10012344     shell32:SHELL32.dll
+ 0002:00000348       __imp__SHDeleteKeyA@8      10012348     Shlwapi:SHLWAPI.dll
+ 0002:0000034c       \177SHLWAPI_NULL_THUNK_DATA 1001234c     Shlwapi:SHLWAPI.dll
+ 0002:00000350       __imp__SetCapture@4        10012350     user32:USER32.dll
+ 0002:00000354       __imp__WindowFromPoint@8   10012354     user32:USER32.dll
+ 0002:00000358       __imp__SetCursorPos@8      10012358     user32:USER32.dll
+ 0002:0000035c       __imp__mouse_event@20      1001235c     user32:USER32.dll
+ 0002:00000360       __imp__CloseClipboard@0    10012360     user32:USER32.dll
+ 0002:00000364       __imp__SetClipboardData@8  10012364     user32:USER32.dll
+ 0002:00000368       __imp__EmptyClipboard@0    10012368     user32:USER32.dll
+ 0002:0000036c       __imp__OpenClipboard@4     1001236c     user32:USER32.dll
+ 0002:00000370       __imp__MapVirtualKeyA@8    10012370     user32:USER32.dll
+ 0002:00000374       __imp__keybd_event@16      10012374     user32:USER32.dll
+ 0002:00000378       __imp__SetRect@20          10012378     user32:USER32.dll
+ 0002:0000037c       __imp__GetDC@4             1001237c     user32:USER32.dll
+ 0002:00000380       __imp__GetDesktopWindow@0  10012380     user32:USER32.dll
+ 0002:00000384       __imp__ReleaseDC@8         10012384     user32:USER32.dll
+ 0002:00000388       __imp__GetCursorInfo@4     10012388     user32:USER32.dll
+ 0002:0000038c       __imp__GetCursorPos@4      1001238c     user32:USER32.dll
+ 0002:00000390       __imp__SetProcessWindowStation@4 10012390     user32:USER32.dll
+ 0002:00000394       __imp__OpenWindowStationA@12 10012394     user32:USER32.dll
+ 0002:00000398       __imp__GetProcessWindowStation@0 10012398     user32:USER32.dll
+ 0002:0000039c       __imp__ExitWindowsEx@8     1001239c     user32:USER32.dll
+ 0002:000003a0       __imp__IsWindow@4          100123a0     user32:USER32.dll
+ 0002:000003a4       __imp__SendMessageA@16     100123a4     user32:USER32.dll
+ 0002:000003a8       __imp__SystemParametersInfoA@16 100123a8     user32:USER32.dll
+ 0002:000003ac       __imp__BlockInput@4        100123ac     user32:USER32.dll
+ 0002:000003b0       __imp__DestroyCursor@4     100123b0     user32:USER32.dll
+ 0002:000003b4       __imp__DispatchMessageA@4  100123b4     user32:USER32.dll
+ 0002:000003b8       __imp__GetSystemMetrics@4  100123b8     user32:USER32.dll
+ 0002:000003bc       __imp__GetKeyNameTextA@12  100123bc     user32:USER32.dll
+ 0002:000003c0       __imp__CallNextHookEx@16   100123c0     user32:USER32.dll
+ 0002:000003c4       __imp__SetWindowsHookExA@16 100123c4     user32:USER32.dll
+ 0002:000003c8       __imp__UnhookWindowsHookEx@4 100123c8     user32:USER32.dll
+ 0002:000003cc       __imp__GetClipboardData@4  100123cc     user32:USER32.dll
+ 0002:000003d0       __imp__LoadCursorA@8       100123d0     user32:USER32.dll
+ 0002:000003d4       __imp__TranslateMessage@4  100123d4     user32:USER32.dll
+ 0002:000003d8       __imp__GetMessageA@16      100123d8     user32:USER32.dll
+ 0002:000003dc       __imp__wsprintfA           100123dc     user32:USER32.dll
+ 0002:000003e0       __imp__CharNextA@4         100123e0     user32:USER32.dll
+ 0002:000003e4       __imp__GetWindowTextA@12   100123e4     user32:USER32.dll
+ 0002:000003e8       __imp__GetActiveWindow@0   100123e8     user32:USER32.dll
+ 0002:000003ec       __imp__CreateWindowExA@48  100123ec     user32:USER32.dll
+ 0002:000003f0       __imp__PostMessageA@16     100123f0     user32:USER32.dll
+ 0002:000003f4       __imp__OpenDesktopA@16     100123f4     user32:USER32.dll
+ 0002:000003f8       __imp__GetThreadDesktop@4  100123f8     user32:USER32.dll
+ 0002:000003fc       __imp__GetUserObjectInformationA@20 100123fc     user32:USER32.dll
+ 0002:00000400       __imp__OpenInputDesktop@12 10012400     user32:USER32.dll
+ 0002:00000404       __imp__SetThreadDesktop@4  10012404     user32:USER32.dll
+ 0002:00000408       __imp__CloseDesktop@4      10012408     user32:USER32.dll
+ 0002:0000040c       __imp__EnumWindows@8       1001240c     user32:USER32.dll
+ 0002:00000410       __imp__IsWindowVisible@4   10012410     user32:USER32.dll
+ 0002:00000414       __imp__GetWindowThreadProcessId@8 10012414     user32:USER32.dll
+ 0002:00000418       \177USER32_NULL_THUNK_DATA 10012418     user32:USER32.dll
+ 0002:0000041c       __imp__InternetOpenA@20    1001241c     wininet:WININET.dll
+ 0002:00000420       __imp__InternetOpenUrlA@24 10012420     wininet:WININET.dll
+ 0002:00000424       __imp__InternetReadFile@16 10012424     wininet:WININET.dll
+ 0002:00000428       __imp__InternetCloseHandle@4 10012428     wininet:WININET.dll
+ 0002:0000042c       \177WININET_NULL_THUNK_DATA 1001242c     wininet:WININET.dll
+ 0002:00000430       __imp__waveOutClose@4      10012430     Winmm:WINMM.dll
+ 0002:00000434       __imp__waveOutReset@4      10012434     Winmm:WINMM.dll
+ 0002:00000438       __imp__waveInClose@4       10012438     Winmm:WINMM.dll
+ 0002:0000043c       __imp__waveInUnprepareHeader@12 1001243c     Winmm:WINMM.dll
+ 0002:00000440       __imp__waveInReset@4       10012440     Winmm:WINMM.dll
+ 0002:00000444       __imp__waveInStop@4        10012444     Winmm:WINMM.dll
+ 0002:00000448       __imp__waveOutWrite@12     10012448     Winmm:WINMM.dll
+ 0002:0000044c       __imp__waveInStart@4       1001244c     Winmm:WINMM.dll
+ 0002:00000450       __imp__waveInAddBuffer@12  10012450     Winmm:WINMM.dll
+ 0002:00000454       __imp__waveInPrepareHeader@12 10012454     Winmm:WINMM.dll
+ 0002:00000458       __imp__waveOutGetNumDevs@0 10012458     Winmm:WINMM.dll
+ 0002:0000045c       __imp__waveInOpen@24       1001245c     Winmm:WINMM.dll
+ 0002:00000460       __imp__waveInGetNumDevs@0  10012460     Winmm:WINMM.dll
+ 0002:00000464       __imp__waveOutPrepareHeader@12 10012464     Winmm:WINMM.dll
+ 0002:00000468       __imp__waveOutUnprepareHeader@12 10012468     Winmm:WINMM.dll
+ 0002:0000046c       __imp__waveOutOpen@24      1001246c     Winmm:WINMM.dll
+ 0002:00000470       \177WINMM_NULL_THUNK_DATA  10012470     Winmm:WINMM.dll
+ 0002:00000474       __imp__gethostname@8       10012474     ws2_32:WS2_32.dll
+ 0002:00000478       __imp__send@16             10012478     ws2_32:WS2_32.dll
+ 0002:0000047c       __imp__select@20           1001247c     ws2_32:WS2_32.dll
+ 0002:00000480       __imp__WSAStartup@8        10012480     ws2_32:WS2_32.dll
+ 0002:00000484       __imp__WSAIoctl@36         10012484     ws2_32:WS2_32.dll
+ 0002:00000488       __imp__setsockopt@20       10012488     ws2_32:WS2_32.dll
+ 0002:0000048c       __imp__connect@12          1001248c     ws2_32:WS2_32.dll
+ 0002:00000490       __imp__htons@4             10012490     ws2_32:WS2_32.dll
+ 0002:00000494       __imp__gethostbyname@4     10012494     ws2_32:WS2_32.dll
+ 0002:00000498       __imp__socket@12           10012498     ws2_32:WS2_32.dll
+ 0002:0000049c       __imp__ntohs@4             1001249c     ws2_32:WS2_32.dll
+ 0002:000004a0       __imp__recv@16             100124a0     ws2_32:WS2_32.dll
+ 0002:000004a4       __imp__getsockname@12      100124a4     ws2_32:WS2_32.dll
+ 0002:000004a8       __imp__closesocket@4       100124a8     ws2_32:WS2_32.dll
+ 0002:000004ac       __imp__WSACleanup@0        100124ac     ws2_32:WS2_32.dll
+ 0002:000004b0       \177WS2_32_NULL_THUNK_DATA 100124b0     ws2_32:WS2_32.dll
+ 0002:000004b4       __imp__WTSFreeMemory@4     100124b4     Wtsapi32:WTSAPI32.dll
+ 0002:000004b8       __imp__WTSQuerySessionInformationA@20 100124b8     Wtsapi32:WTSAPI32.dll
+ 0002:000004bc       \177WTSAPI32_NULL_THUNK_DATA 100124bc     Wtsapi32:WTSAPI32.dll
+ 0002:000004c0       ??_7CAudio@@6B@            100124c0     Audio.obj
+ 0002:000004c4       ??_7CAudioManager@@6B@     100124c4     AudioManager.obj
+ 0002:000004cc       ??_7CBuffer@@6B@           100124cc     Buffer.obj
+ 0002:000004d0       __real@8@3ff58000000000000000 100124d0     Buffer.obj
+ 0002:000004d8       ??_7CClientSocket@@6B@     100124d8     ClientSocket.obj
+ 0002:000004e0       __real@8@4002c000000000000000 100124e0     ClientSocket.obj
+ 0002:000004e8       __real@8@3fff8020c49ba5e35000 100124e8     ClientSocket.obj
+ 0002:000004f0       ??_7CDialupass@@6B@        100124f0     Dialupass.obj
+ 0002:000004f4       ??_7COneInfo@@6B@          100124f4     Dialupass.obj
+ 0002:000004f8       ??_7CFileManager@@6B@      100124f8     FileManager.obj
+ 0002:0000051c       ??_7CKernelManager@@6B@    1001251c     KernelManager.obj
+ 0002:00000524       ??_7CKeyboardManager@@6B@  10012524     KeyboardManager.obj
+ 0002:0000052c       ??_7CShareRestrictedSD@@6B@ 1001252c     KeyboardManager.obj
+ 0002:0000053c       ??_7CManager@@6B@          1001253c     Manager.obj
+ 0002:00000564       ??_7CScreenManager@@6B@    10012564     ScreenManager.obj
+ 0002:0000056c       ??_7CCursorInfo@@6B@       1001256c     ScreenManager.obj
+ 0002:00000570       ??_7CScreenSpy@@6B@        10012570     ScreenSpy.obj
+ 0002:00000574       ??_7CShellManager@@6B@     10012574     ShellManager.obj
+ 0002:0000057c       ??_7CSystemManager@@6B@    1001257c     SystemManager.obj
+ 0002:00000594       ??_7CVideoCap@@6B@         10012594     VideoCap.obj
+ 0002:00000598       ??_7CVideoManager@@6B@     10012598     VideoManager.obj
+ 0002:000005a0       ??_7CVideoCodec@@6B@       100125a0     VideoManager.obj
+ 0002:000005a8       _deflate_copyright         100125a8     zlib:deflate.obj
+ 0002:00000ce8       __dist_code                10012ce8     zlib:trees.obj
+ 0002:00000ee8       __length_code              10012ee8     zlib:trees.obj
+ 0002:000010d4       _inflate_copyright         100130d4     zlib:inftrees.obj
+ 0002:000012f0       ??_7type_info@@6B@         100132f0     MSVCRT:ti_inst.obj
+ 0002:000012f8       ??_R1A@?0A@A@type_info@@8  100132f8     MSVCRT:ti_inst.obj
+ 0002:00001310       ??_R2type_info@@8          10013310     MSVCRT:ti_inst.obj
+ 0002:00001318       ??_R3type_info@@8          10013318     MSVCRT:ti_inst.obj
+ 0002:00001328       ??_R4type_info@@6B@        10013328     MSVCRT:ti_inst.obj
+ 0002:00001430       __CT??_R0PAX@84            10013430     ClientSocket.obj
+ 0002:00001450       __CT??_R0PAD@84            10013450     ClientSocket.obj
+ 0002:00001470       __CTA2PAD                  10013470     ClientSocket.obj
+ 0002:00001480       __TI2PAD                   10013480     ClientSocket.obj
+ 0002:00001b58       __IMPORT_DESCRIPTOR_KERNEL32 10013b58     kernel32:KERNEL32.dll
+ 0002:00001b6c       __IMPORT_DESCRIPTOR_USER32 10013b6c     user32:USER32.dll
+ 0002:00001b80       __IMPORT_DESCRIPTOR_GDI32  10013b80     gdi32:GDI32.dll
+ 0002:00001b94       __IMPORT_DESCRIPTOR_ADVAPI32 10013b94     advapi32:ADVAPI32.dll
+ 0002:00001ba8       __IMPORT_DESCRIPTOR_SHELL32 10013ba8     shell32:SHELL32.dll
+ 0002:00001bbc       __IMPORT_DESCRIPTOR_SHLWAPI 10013bbc     Shlwapi:SHLWAPI.dll
+ 0002:00001bd0       __IMPORT_DESCRIPTOR_MSVCRT 10013bd0     MSVCRT:MSVCRT.dll
+ 0002:00001be4       __IMPORT_DESCRIPTOR_WINMM  10013be4     Winmm:WINMM.dll
+ 0002:00001bf8       __IMPORT_DESCRIPTOR_WS2_32 10013bf8     ws2_32:WS2_32.dll
+ 0002:00001c0c       __IMPORT_DESCRIPTOR_MSVCP60 10013c0c     msvcprt:MSVCP60.dll
+ 0002:00001c20       __IMPORT_DESCRIPTOR_IMM32  10013c20     Imm32:IMM32.dll
+ 0002:00001c34       __IMPORT_DESCRIPTOR_WININET 10013c34     wininet:WININET.dll
+ 0002:00001c48       __IMPORT_DESCRIPTOR_AVICAP32 10013c48     vfw32:AVICAP32.dll
+ 0002:00001c5c       __IMPORT_DESCRIPTOR_MSVFW32 10013c5c     vfw32:MSVFW32.dll
+ 0002:00001c70       __IMPORT_DESCRIPTOR_PSAPI  10013c70     Psapi:PSAPI.DLL
+ 0002:00001c84       __IMPORT_DESCRIPTOR_WTSAPI32 10013c84     Wtsapi32:WTSAPI32.dll
+ 0002:00001c98       __NULL_IMPORT_DESCRIPTOR   10013c98     kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    10016000     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xc_z                    10016008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_a                    1001600c     MSVCRT:cinitexe.obj
+ 0003:00000010       ___xi_z                    10016010     MSVCRT:cinitexe.obj
+ 0003:00000020       ?m_nProxyPort@CClientSocket@@0IA 10016020     ClientSocket.obj
+ 0003:00000028       ??_R0PAX@8                 10016028     ClientSocket.obj
+ 0003:00000038       ??_R0PAD@8                 10016038     ClientSocket.obj
+ 0003:00000048       ??_C@_0N@HHDO@bad?5Allocate?$AA@ 10016048     ClientSocket.obj
+ 0003:00000058       ??_C@_0L@BIJM@bad?5buffer?$AA@ 10016058     ClientSocket.obj
+ 0003:00000064       ??_C@_05KEJO@?$CFs?2?$CFs?$AA@ 10016064     Dialupass.obj
+ 0003:0000006c       ??_C@_0CP@EEHH@Microsoft?2Network?2Connections?2pb@ 1001606c     Dialupass.obj
+ 0003:0000009c       ??_C@_0EB@IMGD@?2Application?5Data?2Microsoft?2Netw@ 1001609c     Dialupass.obj
+ 0003:000000e0       ??_C@_0BI@ELAO@Documents?5and?5Settings?2?$AA@ 100160e0     Dialupass.obj
+ 0003:000000f8       ??_C@_0BH@HAKG@ConvertSidToStringSidA?$AA@ 100160f8     Dialupass.obj
+ 0003:00000110       ??_C@_0N@MBOE@advapi32?4dll?$AA@ 10016110     Dialupass.obj
+ 0003:00000120       ??_C@_0BL@EFIP@L$_RasDefaultCredentials?$CD0?$AA@ 10016120     Dialupass.obj
+ 0003:0000013c       ??_C@_0BD@MEAM@RasDialParams?$CB?$CFs?$CD0?$AA@ 1001613c     Dialupass.obj
+ 0003:00000150       ??_C@_06NBPC@Device?$AA@   10016150     Dialupass.obj
+ 0003:00000158       ??_C@_0M@EPMM@PhoneNumber?$AA@ 10016158     Dialupass.obj
+ 0003:00000164       ??_C@_0O@KACJ@DialParamsUID?$AA@ 10016164     Dialupass.obj
+ 0003:00000174       ??_C@_0BA@HAA@WinSta0?2Default?$AA@ 10016174     FileManager.obj
+ 0003:00000184       ??_C@_01FCOA@?5?$AA@       10016184     FileManager.obj
+ 0003:00000188       ??_C@_02MIFF@?$CF1?$AA@    10016188     FileManager.obj
+ 0003:0000018c       ??_C@_03COKN@?$CC?$CF1?$AA@ 1001618c     FileManager.obj
+ 0003:00000190       ??_C@_0BG@BFHA@?$CFs?2shell?2open?2command?$AA@ 10016190     FileManager.obj
+ 0003:000001a8       ??_C@_02OOND@?4?4?$AA@     100161a8     FileManager.obj
+ 0003:000001ac       ??_C@_01PJCK@?4?$AA@       100161ac     FileManager.obj
+ 0003:000001b0       ??_C@_06BEFO@?$CFs?2?$CK?4?$CK?$AA@ 100161b0     FileManager.obj
+ 0003:000001b8       ??_C@_06KKCN@?$CFs?$CFs?$CFs?$AA@ 100161b8     FileManager.obj
+ 0003:000001c0       ??_C@_07KMFA@?$CFs?$CFs?$CK?4?$CK?$AA@ 100161c0     FileManager.obj
+ 0003:000001c8       ??_C@_01PCFE@?2?$AA@       100161c8     FileManager.obj
+ 0003:000001cc       ??_C@_0CF@FMJB@SYSTEM?2CurrentControlSet?2Service@ 100161cc     install.obj
+ 0003:000001f4       ??_C@_0O@LONJ@InstallModule?$AA@ 100161f4     install.obj
+ 0003:00000204       ??_C@_0BF@HNHG@RegSetValueEx?$CIstart?$CJ?$AA@ 10016204     install.obj
+ 0003:0000021c       ??_C@_04FCOP@Type?$AA@     1001621c     install.obj
+ 0003:00000224       ??_C@_0CD@HOED@SYSTEM?2CurrentControlSet?2Service@ 10016224     install.obj
+ 0003:00000248       ??_C@_0BG@CHM@RegQueryValueEx?$CIType?$CJ?$AA@ 10016248     install.obj
+ 0003:00000260       ?m_nMasterPort@CKernelManager@@2IA 10016260     KernelManager.obj
+ 0003:00000264       ??_C@_0M@OKJJ@?2syslog?4dat?$AA@ 10016264     KernelManager.obj
+ 0003:00000270       ??_C@_0N@KGJA@Gh0st?5Update?$AA@ 10016270     KernelManager.obj
+ 0003:00000280       ??_C@_0CN@OENJ@Applications?2iexplore?4exe?2shell?2@ 10016280     KernelManager.obj
+ 0003:000002b0       ??_C@_06NILE@System?$AA@   100162b0     KernelManager.obj
+ 0003:000002b8       ??_C@_08PEMD@Security?$AA@ 100162b8     KernelManager.obj
+ 0003:000002c4       ??_C@_0M@DAJ@Application?$AA@ 100162c4     KernelManager.obj
+ 0003:000002d0       ??_C@_04ENBD@Host?$AA@     100162d0     KernelManager.obj
+ 0003:000002d8       ??_C@_0BB@MJPL@SeDebugPrivilege?$AA@ 100162d8     KernelManager.obj
+ 0003:000002ec       ??_C@_0M@GPEK@CloseHandle?$AA@ 100162ec     KernelManager.obj
+ 0003:000002f8       ??_C@_05BKOF@Sleep?$AA@    100162f8     KernelManager.obj
+ 0003:00000300       ??_C@_0N@IDOE@kernel32?4dll?$AA@ 10016300     KernelManager.obj
+ 0003:00000310       ??_C@_0N@DOAH@SHDeleteKeyA?$AA@ 10016310     KernelManager.obj
+ 0003:00000320       ??_C@_0M@JNPE@shlwapi?4dll?$AA@ 10016320     KernelManager.obj
+ 0003:0000032c       ??_C@_0BD@POGC@CloseServiceHandle?$AA@ 1001632c     KernelManager.obj
+ 0003:00000340       ??_C@_0O@IKBM@DeleteService?$AA@ 10016340     KernelManager.obj
+ 0003:00000350       ??_C@_0O@DJEI@StartServiceA?$AA@ 10016350     KernelManager.obj
+ 0003:00000360       ??_C@_0P@CEBD@ControlService?$AA@ 10016360     KernelManager.obj
+ 0003:00000370       ??_C@_0BD@JBAE@QueryServiceStatus?$AA@ 10016370     KernelManager.obj
+ 0003:00000384       ??_C@_0N@JOID@OpenServiceA?$AA@ 10016384     KernelManager.obj
+ 0003:00000394       ??_C@_0P@KPLF@OpenSCManagerA?$AA@ 10016394     KernelManager.obj
+ 0003:000003a4       ??_C@_0N@ELGI@winlogon?4exe?$AA@ 100163a4     KernelManager.obj
+ 0003:000003b4       ??_C@_06PDFP@?$CFd?4bak?$AA@ 100163b4     KernelManager.obj
+ 0003:000003bc       ??_C@_06FIHK@ex?4dll?$AA@  100163bc     KernelManager.obj
+ 0003:000003c4       ??_C@_0CH@MCMA@?$AN?6?$FL?$CF02d?1?$CF02d?1?$CFd?5?$CF02d?3?$CF02d?3?$CF02d?$FN?5@ 100163c4     KeyboardManager.obj
+ 0003:000003ec       ??_C@_01FIMD@?$FN?$AA@     100163ec     KeyboardManager.obj
+ 0003:000003f0       ??_C@_02PIMC@?$AN?6?$AA@   100163f0     KeyboardManager.obj
+ 0003:000003f4       ??_C@_0L@PCBD@_kaspersky?$AA@ 100163f4     KeyboardManager.obj
+ 0003:00000400       ??_C@_0L@MKNL@REG_BINARY?$AA@ 10016400     RegEditEx.obj
+ 0003:0000040c       ??_C@_0P@CDOI@?$CF?924s?5?$CF?915s?5?$AN?6?$AA@ 1001640c     RegEditEx.obj
+ 0003:0000041c       ??_C@_0N@ONFN@REG_MULTI_SZ?$AA@ 1001641c     RegEditEx.obj
+ 0003:0000042c       ??_C@_0BI@KLEF@?$CF?924s?5?$CF?915s?50x?$CFx?$CI?$CFd?$CJ?5?$AN?6?$AA@ 1001642c     RegEditEx.obj
+ 0003:00000444       ??_C@_09HBKC@REG_DWORD?$AA@ 10016444     RegEditEx.obj
+ 0003:00000450       ??_C@_0BC@PEB@?$CF?924s?5?$CF?915s?5?$CFs?5?$AN?6?$AA@ 10016450     RegEditEx.obj
+ 0003:00000464       ??_C@_0O@PBEF@REG_EXPAND_SZ?$AA@ 10016464     RegEditEx.obj
+ 0003:00000474       ??_C@_06OCFF@REG_SZ?$AA@   10016474     RegEditEx.obj
+ 0003:0000047c       ??_C@_06BHBL@?$FL?$CFs?$FN?$AN?6?$AA@ 1001647c     RegEditEx.obj
+ 0003:00000484       ??_C@_02MECO@?$CFd?$AA@    10016484     RegEditEx.obj
+ 0003:00000488       ??_C@_08GEL@?2cmd?4exe?$AA@ 10016488     ShellManager.obj
+ 0003:000004d8       ??_C@_04BFDD@AAAA?$AA@     100164d8     svchost.obj
+ 0003:000004e0       ??_C@_0BJ@MHL@Mozilla?14?40?5?$CIcompatible?$CJ?$AA@ 100164e0     svchost.obj
+ 0003:000004fc       ??_C@_08HFCO@https?3?1?1?$AA@ 100164fc     svchost.obj
+ 0003:00000508       ??_C@_07PCOP@http?3?1?1?$AA@ 10016508     svchost.obj
+ 0003:00000510       ??_C@_04BBPO@?$HOMHz?$AA@  10016510     svchost.obj
+ 0003:00000518       ??_C@_0CP@HBON@HARDWARE?2DESCRIPTION?2System?2Cent@ 10016518     svchost.obj
+ 0003:00000548       ??_C@_0BJ@CGCF@KeServiceDescriptorTable?$AA@ 10016548     svchost.obj
+ 0003:00000564       ??_C@_09MHEK@ntdll?4dll?$AA@ 10016564     svchost.obj
+ 0003:00000570       ??_C@_0BJ@FIKA@NtQuerySystemInformation?$AA@ 10016570     svchost.obj
+ 0003:0000058c       ??_C@_0O@HHLN@?2?2?4?2RESSDTDOS?$AA@ 1001658c     svchost.obj
+ 0003:0000059c       ??_C@_03CGNG@BIN?$AA@      1001659c     svchost.obj
+ 0003:000005a0       ??_C@_0BA@JKGG@Global?2Gh0st?5?$CFd?$AA@ 100165a0     svchost.obj
+ 0003:000005b0       ??_C@_07IHFL@winsta0?$AA@  100165b0     svchost.obj
+ 0003:000005b8       ??_C@_06EBOL@AAAAAA?$AA@   100165b8     svchost.obj
+ 0003:000005c0       ??_C@_0BE@NFOF@SeShutdownPrivilege?$AA@ 100165c0     SystemManager.obj
+ 0003:000005d4       ??_C@_0N@NGOP@explorer?4exe?$AA@ 100165d4     until.obj
+ 0003:000005e4       ??_C@_08HMAH@Winlogon?$AA@ 100165e4     until.obj
+ 0003:000005f0       ??_C@_09NCK@CVideoCap?$AA@ 100165f0     VideoCap.obj
+ 0003:000005fc       ??_C@_06KBFD@?$CD32770?$AA@ 100165fc     VideoCap.obj
+ 0003:00000604       ??_C@_0L@GBIB@USER32?4dll?$AA@ 10016604     VideoCap.obj
+ 0003:00000610       ??_C@_05IOHI@1?41?44?$AA@  10016610     zlib:uncompr.obj
+ 0003:00000618       ??_C@_0BA@FKCH@need?5dictionary?$AA@ 10016618     zlib:inflate.obj
+ 0003:00000628       ??_C@_0BF@OBFI@incorrect?5data?5check?$AA@ 10016628     zlib:inflate.obj
+ 0003:00000640       ??_C@_0BH@NLIB@incorrect?5header?5check?$AA@ 10016640     zlib:inflate.obj
+ 0003:00000658       ??_C@_0BE@FAJE@invalid?5window?5size?$AA@ 10016658     zlib:inflate.obj
+ 0003:0000066c       ??_C@_0BL@KPEJ@unknown?5compression?5method?$AA@ 1001666c     zlib:inflate.obj
+ 0003:0000068c       ??_C@_0BK@BNJN@invalid?5bit?5length?5repeat?$AA@ 1001668c     zlib:infblock.obj
+ 0003:000006a8       ??_C@_0CE@LAKP@too?5many?5length?5or?5distance?5symb@ 100166a8     zlib:infblock.obj
+ 0003:000006cc       ??_C@_0BN@DBOJ@invalid?5stored?5block?5lengths?$AA@ 100166cc     zlib:infblock.obj
+ 0003:000006ec       ??_C@_0BD@IFBC@invalid?5block?5type?$AA@ 100166ec     zlib:infblock.obj
+ 0003:00000700       _z_errmsg                  10016700     zlib:zutil.obj
+ 0003:00000728       ??_C@_0BF@HPBB@incompatible?5version?$AA@ 10016728     zlib:zutil.obj
+ 0003:00000740       ??_C@_0N@EHHN@buffer?5error?$AA@ 10016740     zlib:zutil.obj
+ 0003:00000750       ??_C@_0BE@EMHE@insufficient?5memory?$AA@ 10016750     zlib:zutil.obj
+ 0003:00000764       ??_C@_0L@EBEB@data?5error?$AA@ 10016764     zlib:zutil.obj
+ 0003:00000770       ??_C@_0N@OPOA@stream?5error?$AA@ 10016770     zlib:zutil.obj
+ 0003:00000780       ??_C@_0L@DFEP@file?5error?$AA@ 10016780     zlib:zutil.obj
+ 0003:0000078c       ??_C@_0L@JPFB@stream?5end?$AA@ 1001678c     zlib:zutil.obj
+ 0003:000007dc       ??_C@_0BG@EGK@invalid?5distance?5code?$AA@ 100167dc     zlib:infcodes.obj
+ 0003:000007f4       ??_C@_0BM@CHJP@invalid?5literal?1length?5code?$AA@ 100167f4     zlib:infcodes.obj
+ 0003:00001918       ??_C@_0CE@MFNM@incomplete?5dynamic?5bit?5lengths?5t@ 10017918     zlib:inftrees.obj
+ 0003:0000193c       ??_C@_0CI@BBGL@oversubscribed?5dynamic?5bit?5lengt@ 1001793c     zlib:inftrees.obj
+ 0003:00001964       ??_C@_0BP@KPP@incomplete?5literal?1length?5tree?$AA@ 10017964     zlib:inftrees.obj
+ 0003:00001984       ??_C@_0CD@ODII@oversubscribed?5literal?1length?5tr@ 10017984     zlib:inftrees.obj
+ 0003:000019a8       ??_C@_0CB@INA@empty?5distance?5tree?5with?5lengths@ 100179a8     zlib:inftrees.obj
+ 0003:000019cc       ??_C@_0BJ@NKOC@incomplete?5distance?5tree?$AA@ 100179cc     zlib:inftrees.obj
+ 0003:000019e8       ??_C@_0BN@OAAG@oversubscribed?5distance?5tree?$AA@ 100179e8     zlib:inftrees.obj
+ 0003:00001a08       _inflate_mask              10017a08     zlib:infutil.obj
+ 0003:00001a50       ??_R0?AVtype_info@@@8      10017a50     MSVCRT:ti_inst.obj
+ 0003:00001a70       ?m_bIsWorking@CAudioManager@@2_NA 10017a70     AudioManager.obj
+ 0003:00001a74       ?m_nProxyType@CClientSocket@@0HA 10017a74     ClientSocket.obj
+ 0003:00001a78       ?m_strProxyHost@CClientSocket@@0PADA 10017a78     ClientSocket.obj
+ 0003:00001b78       ?m_strUserName@CClientSocket@@0PADA 10017b78     ClientSocket.obj
+ 0003:00001c78       ?m_strPassWord@CClientSocket@@0PADA 10017c78     ClientSocket.obj
+ 0003:00001d78       ??_C@_00A@?$AA@            10017d78     Dialupass.obj
+ 0003:00001d80       ?m_strMasterHost@CKernelManager@@2PADA 10017d80     KernelManager.obj
+ 0003:00001e80       ?m_dwLastMsgTime@CKeyboardManager@@2KA 10017e80     KeyboardManager.obj
+ 0003:00001e84       ?g_bSignalHook@@3_NA       10017e84     KeyboardManager.obj
+ 0003:00001e88       ?m_pTShared@CKeyboardManager@@2PAUTShared@@A 10017e88     KeyboardManager.obj
+ 0003:00001e8c       ?m_hMapping_File@CKeyboardManager@@2PAXA 10017e8c     KeyboardManager.obj
+ 0003:00001e90       ?g_hInstance@CKeyboardManager@@2PAUHINSTANCE__@@A 10017e90     KeyboardManager.obj
+ 0003:00001e9c       ?RtlInitUnicodeString@@3P6GXPAU_UNICODE_STRING@@PBG@ZA 10017e9c     svchost.obj
+ 0003:00001ea0       ?g_strBeepSys@@3PADA       10017ea0     svchost.obj
+ 0003:00001fa4       ?g_dwServiceType@@3KA      10017fa4     svchost.obj
+ 0003:00001fa8       ?hServiceStatus@@3PAUSERVICE_STATUS_HANDLE__@@A 10017fa8     svchost.obj
+ 0003:00001fac       ?ZwSetSystemInformation@@3P6GJKPAXK@ZA 10017fac     svchost.obj
+ 0003:00001fb0       ?svcname@@3PADA            10017fb0     svchost.obj
+ 0003:000020b4       ?g_strService@@3PADA       100180b4     svchost.obj
+ 0003:000020c0       ?g_dwCurrState@@3KA        100180c0     svchost.obj
+ 0003:000020c8       ?g_lpBeepSys@@3PAEA        100180c8     svchost.obj
+ 0003:000020cc       ?g_dwBeepLen@@3KA          100180cc     svchost.obj
+ 0003:000020d4       ?m_bIsConnected@CVideoCap@@0_NA 100180d4     VideoCap.obj
+ 0003:000020e8       __adjust_fdiv              100180e8     <common>
+ 0003:000020ec       ___onexitend               100180ec     <common>
+ 0003:000020f0       ___onexitbegin             100180f0     <common>
+ 0003:000020f4       __pRawDllMain              100180f4     <common>
+
+ entry point at        0001:0001090a
+
+ Static symbols
+
+ 0001:00008240       ?pos@@YAHD@Z               10009240 f   svchost.obj
+ 0001:000053c0       _$E11                      100063c0 f   KeyboardManager.obj
+ 0001:000053d0       _$E10                      100063d0 f   KeyboardManager.obj
+ 0001:0000fc20       _huft_build                10010c20 f   zlib:inftrees.obj
+ 0001:0000d840       _tr_static_init            1000e840 f   zlib:trees.obj
+ 0001:0000d850       _init_block                1000e850 f   zlib:trees.obj
+ 0001:0000ddb0       _build_tree                1000edb0 f   zlib:trees.obj
+ 0001:0000dff0       _pqdownheap                1000eff0 f   zlib:trees.obj
+ 0001:0000e0d0       _gen_bitlen                1000f0d0 f   zlib:trees.obj
+ 0001:0000e300       _gen_codes                 1000f300 f   zlib:trees.obj
+ 0001:0000e380       _build_bl_tree             1000f380 f   zlib:trees.obj
+ 0001:0000e3f0       _scan_tree                 1000f3f0 f   zlib:trees.obj
+ 0001:0000e4e0       _send_all_trees            1000f4e0 f   zlib:trees.obj
+ 0001:0000e750       _send_tree                 1000f750 f   zlib:trees.obj
+ 0001:0000ecd0       _compress_block            1000fcd0 f   zlib:trees.obj
+ 0001:0000f110       _set_data_type             10010110 f   zlib:trees.obj
+ 0001:0000f190       _bi_reverse                10010190 f   zlib:trees.obj
+ 0001:0000f1b0       _bi_flush                  100101b0 f   zlib:trees.obj
+ 0001:0000f240       _bi_windup                 10010240 f   zlib:trees.obj
+ 0001:0000f2c0       _copy_block                100102c0 f   zlib:trees.obj
+ 0001:0000ba20       _putShortMSB               1000ca20 f   zlib:deflate.obj
+ 0001:0000ba50       _flush_pending             1000ca50 f   zlib:deflate.obj
+ 0001:0000bb80       _lm_init                   1000cb80 f   zlib:deflate.obj
+ 0001:0000bc20       _deflate_stored            1000cc20 f   zlib:deflate.obj
+ 0001:0000bd80       _fill_window               1000cd80 f   zlib:deflate.obj
+ 0001:0000beb0       _read_buf                  1000ceb0 f   zlib:deflate.obj
+ 0001:0000bf30       _deflate_fast              1000cf30 f   zlib:deflate.obj
+ 0001:0000c260       _longest_match             1000d260 f   zlib:deflate.obj
+ 0001:0000c3d0       _deflate_slow              1000d3d0 f   zlib:deflate.obj
+
+Line numbers for .\Release\VideoManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\VideoManager.cpp) segment .text
+
+    12 0001:0000a6a0    15 0001:0000a6c7    20 0001:0000a6ce    21 0001:0000a6fd
+    24 0001:0000a740    25 0001:0000a743    26 0001:0000a755    27 0001:0000a761
+    28 0001:0000a76b    31 0001:0000a780    35 0001:0000a797    53 0001:0000a79c
+    40 0001:0000a79f    41 0001:0000a7a6    53 0001:0000a7b2    45 0001:0000a7b5
+    53 0001:0000a7c1    48 0001:0000a7c4    53 0001:0000a7d1    56 0001:0000a7f0
+    58 0001:0000a7f4    59 0001:0000a800    62 0001:0000a804    63 0001:0000a807
+    64 0001:0000a817    66 0001:0000a823    67 0001:0000a830    70 0001:0000a840
+    71 0001:0000a848    75 0001:0000a853    76 0001:0000a85f    77 0001:0000a86a
+    80 0001:0000a872    81 0001:0000a876    82 0001:0000a87c    85 0001:0000a882
+    89 0001:0000a898    90 0001:0000a90f    97 0001:0000a91e    99 0001:0000a920
+   100 0001:0000a93a   103 0001:0000a946   105 0001:0000a94f   106 0001:0000a95c
+   109 0001:0000a960   111 0001:0000a973   114 0001:0000a97f   115 0001:0000a983
+   117 0001:0000a987   118 0001:0000a992   119 0001:0000a9b0   122 0001:0000a9c0
+   127 0001:0000a9e3   129 0001:0000a9f0   130 0001:0000a9f9   131 0001:0000aa02
+   149 0001:0000aa06   133 0001:0000aa09   135 0001:0000aa0e   137 0001:0000aa15
+   140 0001:0000aa23   141 0001:0000aa32   142 0001:0000aa36   143 0001:0000aa38
+   146 0001:0000aa4c   148 0001:0000aa54   149 0001:0000aa57   152 0001:0000aa60
+   155 0001:0000aa80   207 0001:0000aa8b   158 0001:0000aa9a   161 0001:0000aabf
+   163 0001:0000aad8   165 0001:0000aada   168 0001:0000aadc   169 0001:0000aaeb
+   170 0001:0000aaf3   173 0001:0000ab05   174 0001:0000ab0d   179 0001:0000ab17
+   180 0001:0000ab20   207 0001:0000ab23   185 0001:0000ab34   186 0001:0000ab3c
+   187 0001:0000ab44   189 0001:0000ab4c   191 0001:0000ab54   193 0001:0000ab5c
+   194 0001:0000ab79   196 0001:0000ac34   198 0001:0000ac49   191 0001:0000ac55
+   194 0001:0000ac5a   202 0001:0000ac70   207 0001:0000ac7f   210 0001:0000acf0
+   211 0001:0000acf3   213 0001:0000acfa   214 0001:0000ad00   216 0001:0000ad07
+   218 0001:0000ad0e   219 0001:0000ad14   221 0001:0000ad1c
+
+Line numbers for .\Release\VideoCap.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\VideoCap.cpp) segment .text
+
+    13 0001:0000a1d0    17 0001:0000a1ea    18 0001:0000a1f1    21 0001:0000a1f8
+    23 0001:0000a20a    34 0001:0000a231    35 0001:0000a251    38 0001:0000a280
+    39 0001:0000a285    41 0001:0000a2a3    42 0001:0000a2bc    44 0001:0000a2d5
+    45 0001:0000a2dc    46 0001:0000a2e5    47 0001:0000a2ec    48 0001:0000a2f5
+    51 0001:0000a2fc    52 0001:0000a315    59 0001:0000a32e    60 0001:0000a383
+    61 0001:0000a389    65 0001:0000a38f    66 0001:0000a39c    69 0001:0000a3a0
+    71 0001:0000a3a5    74 0001:0000a3b0    78 0001:0000a3d0    80 0001:0000a3d4
+    81 0001:0000a3f2    84 0001:0000a3fd    85 0001:0000a400    84 0001:0000a403
+    85 0001:0000a406    88 0001:0000a410    91 0001:0000a41f   102 0001:0000a421
+    93 0001:0000a429    96 0001:0000a42b    99 0001:0000a431   102 0001:0000a451
+   105 0001:0000a460   106 0001:0000a463   107 0001:0000a484   109 0001:0000a493
+   110 0001:0000a497   113 0001:0000a49b   112 0001:0000a49c   113 0001:0000a49f
+   116 0001:0000a4a0   121 0001:0000a4a9   170 0001:0000a4b6   124 0001:0000a4bc
+   126 0001:0000a4e0   127 0001:0000a4fc   129 0001:0000a51f   170 0001:0000a522
+   133 0001:0000a528   135 0001:0000a52a   133 0001:0000a546   138 0001:0000a54c
+   139 0001:0000a554   170 0001:0000a557   142 0001:0000a55d   143 0001:0000a57c
+   146 0001:0000a583   148 0001:0000a5a3   150 0001:0000a5b8   151 0001:0000a5be
+   152 0001:0000a5c4   153 0001:0000a5c7   155 0001:0000a5e8   156 0001:0000a60a
+   170 0001:0000a60d   159 0001:0000a613   161 0001:0000a61f   163 0001:0000a641
+   164 0001:0000a65a   165 0001:0000a673   167 0001:0000a68e   169 0001:0000a694
+   170 0001:0000a698
+
+Line numbers for .\Release\until.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\until.cpp) segment .text
+
+    11 0001:00009ae0    12 0001:00009afb    15 0001:00009b01    18 0001:00009b04
+    19 0001:00009b17    21 0001:00009b1e    22 0001:00009b22    24 0001:00009b2c
+    29 0001:00009b2f    26 0001:00009b42    29 0001:00009b48    37 0001:00009b60
+    40 0001:00009b63    41 0001:00009b67    42 0001:00009b6b    43 0001:00009b70
+    44 0001:00009b8a    45 0001:00009bb2    46 0001:00009bc4    48 0001:00009bcf
+    49 0001:00009bd2    52 0001:00009be0    55 0001:00009bed    58 0001:00009bfe
+    60 0001:00009c0f    63 0001:00009c25    75 0001:00009c2c    65 0001:00009c2d
+    67 0001:00009c38    74 0001:00009c52    75 0001:00009c55    78 0001:00009c60
+    81 0001:00009c63    83 0001:00009c86    84 0001:00009c95    85 0001:00009ca1
+    86 0001:00009cab    90 0001:00009cae    89 0001:00009cb2    90 0001:00009cb4
+    93 0001:00009cc0    94 0001:00009ce9    95 0001:00009cf6    96 0001:00009cfc
+   154 0001:00009cfe    99 0001:00009d0f   100 0001:00009d12   101 0001:00009d15
+   102 0001:00009d18   103 0001:00009d1b   106 0001:00009d1e   107 0001:00009d30
+   111 0001:00009d38   112 0001:00009d48   117 0001:00009d50   118 0001:00009d53
+   119 0001:00009d6a   121 0001:00009d71   122 0001:00009d85   123 0001:00009d99
+   135 0001:00009d9d   137 0001:00009da7   138 0001:00009db1   141 0001:00009dc7
+   143 0001:00009dfb   145 0001:00009e01   146 0001:00009e05   147 0001:00009e0c
+   148 0001:00009e13   149 0001:00009e1a   150 0001:00009e1e   152 0001:00009e2a
+   154 0001:00009e2d   157 0001:00009e40   161 0001:00009e47   164 0001:00009e6e
+   173 0001:00009e83   168 0001:00009e8a   169 0001:00009e99   173 0001:00009ea0
+   171 0001:00009ea7   173 0001:00009eae   176 0001:00009ec0   177 0001:00009eca
+   183 0001:00009ed2   184 0001:00009ee1   185 0001:00009eec   188 0001:00009f08
+   189 0001:00009f19   190 0001:00009f27   192 0001:00009f40   194 0001:00009f57
+   195 0001:00009f5e   197 0001:00009f69   199 0001:00009f72   202 0001:00009f75
+   203 0001:00009f80   206 0001:00009f90   207 0001:00009f98   212 0001:00009fa5
+   225 0001:00009fcc   217 0001:00009fd3   225 0001:00009fe0   222 0001:00009fe7
+   224 0001:00009fef   225 0001:00009ff5   233 0001:0000a000   243 0001:0000a005
+   245 0001:0000a019   252 0001:0000a01b   256 0001:0000a023   269 0001:0000a028
+   261 0001:0000a029   263 0001:0000a036   264 0001:0000a03d   269 0001:0000a040
+   268 0001:0000a041   269 0001:0000a047   272 0001:0000a050   276 0001:0000a05e
+   290 0001:0000a072   283 0001:0000a073   286 0001:0000a08a   287 0001:0000a08e
+   289 0001:0000a097   290 0001:0000a09d   292 0001:0000a0a0   296 0001:0000a0a9
+   300 0001:0000a0ac   301 0001:0000a0ce   302 0001:0000a0d9   333 0001:0000a0dc
+   304 0001:0000a0e3   305 0001:0000a0fc   306 0001:0000a103   333 0001:0000a106
+   308 0001:0000a10d   310 0001:0000a126   314 0001:0000a135   315 0001:0000a140
+   317 0001:0000a154   324 0001:0000a161   325 0001:0000a17e   319 0001:0000a188
+   326 0001:0000a190   329 0001:0000a19f   330 0001:0000a1a8   332 0001:0000a1ab
+   333 0001:0000a1ba
+
+Line numbers for .\Release\SystemManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\SystemManager.cpp) segment .text
+
+    20 0001:00009420    21 0001:00009447    22 0001:0000945c    25 0001:00009490
+    27 0001:00009496    29 0001:000094a0    30 0001:000094a3    32 0001:000094a8
+    34 0001:000094bf    47 0001:000094c7    37 0001:000094ca    47 0001:000094d2
+    40 0001:000094d5    47 0001:000094dd    43 0001:000094e0    47 0001:000094f0
+    50 0001:00009510    52 0001:00009514    53 0001:0000951b    56 0001:0000951f
+    57 0001:0000952f    58 0001:00009538    61 0001:00009540    63 0001:00009544
+    64 0001:0000954b    67 0001:0000954f    68 0001:0000955f    69 0001:00009568
+    72 0001:00009570    73 0001:00009590    76 0001:00009599    78 0001:000095a9
+    80 0001:000095b8    83 0001:000095d4    84 0001:000095d5    88 0001:000095e0
+    91 0001:000095f9    94 0001:00009615    95 0001:0000961e    96 0001:00009627
+   101 0001:00009658   102 0001:0000966d   104 0001:00009674   106 0001:000096a0
+   108 0001:000096a6   110 0001:000096b6   112 0001:000096c8   113 0001:000096db
+   114 0001:000096e4   116 0001:000096f7   118 0001:00009706   120 0001:0000970e
+   122 0001:00009715   123 0001:0000971f   126 0001:00009730   129 0001:00009738
+   130 0001:0000973a   132 0001:00009749   136 0001:00009762   138 0001:00009776
+   140 0001:00009780   141 0001:0000978a   184 0001:0000978d   145 0001:00009796
+   150 0001:000097ad   154 0001:000097c9   155 0001:000097dd   157 0001:000097fb
+   158 0001:0000980d   161 0001:00009825   163 0001:00009842   164 0001:0000984f
+   166 0001:0000985b   169 0001:0000985f   170 0001:00009878   172 0001:00009891
+   173 0001:000098ae   176 0001:000098d0   179 0001:000098e3   181 0001:000098ed
+   182 0001:000098fe   183 0001:00009907   184 0001:0000990b   187 0001:00009920
+   192 0001:00009923   195 0001:00009941   209 0001:00009944   198 0001:00009948
+   200 0001:0000994c   201 0001:0000996d   202 0001:00009985   204 0001:0000998f
+   207 0001:00009991   208 0001:0000999c   209 0001:000099a4   212 0001:000099b0
+   214 0001:000099bc   215 0001:000099cc   216 0001:000099db   219 0001:000099e0
+   226 0001:000099ea   227 0001:000099f4   229 0001:00009a15   233 0001:00009a31
+   234 0001:00009a35   236 0001:00009a41   237 0001:00009a4a   239 0001:00009a56
+   241 0001:00009a65   242 0001:00009a76   244 0001:00009a89   247 0001:00009aa4
+   250 0001:00009ab0   252 0001:00009ab1   253 0001:00009ac9   254 0001:00009ad0
+   255 0001:00009ad4
+
+Line numbers for .\Release\svchost.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\svchost.cpp) segment .text
+
+    37 0001:00008e70    40 0001:00008e8f    41 0001:00008e98    42 0001:00008e9f
+    43 0001:00008ea2    51 0001:00008eb0    64 0001:00008ecf    65 0001:00008eec
+    67 0001:00008ef4    72 0001:00008efc    73 0001:00008f02    74 0001:00008f13
+    75 0001:00008f17    80 0001:00008f1e    82 0001:00008f29    83 0001:00008f34
+    85 0001:00008f39    86 0001:00008f4f    88 0001:00008f69    89 0001:00008f77
+    91 0001:00008f84    96 0001:00008f8d   106 0001:00008f95   107 0001:00008fba
+   111 0001:00008fd2   114 0001:00008fde   116 0001:00008fe0   117 0001:00008ff0
+   126 0001:00008ff4   180 0001:00009001   119 0001:00009003   120 0001:0000900c
+   132 0001:00009013   134 0001:0000904e   135 0001:00009053   141 0001:00009058
+   142 0001:00009060   143 0001:00009072   144 0001:00009074   146 0001:0000908a
+   147 0001:00009092   149 0001:000090ab   150 0001:000090b0   154 0001:000090b5
+   155 0001:000090cc   156 0001:000090fd   160 0001:00009116   162 0001:00009128
+   165 0001:00009135   166 0001:00009145   171 0001:0000915e   175 0001:00009160
+   176 0001:0000916e   177 0001:00009180   178 0001:00009189   108 0001:00009191
+   182 0001:00009193   183 0001:0000919c   184 0001:000091a5   197 0001:000091b9
+   198 0001:000091c1   199 0001:000091cc   200 0001:000091cf   206 0001:00009200
+   211 0001:0000920d   212 0001:00009216   213 0001:00009221   219 0001:00009226
+   220 0001:0000922b   223 0001:00009230   225 0001:0000923e   228 0001:00009240
+   230 0001:00009258   231 0001:0000926e   232 0001:0000927e   235 0001:0000928c
+   237 0001:00009292   238 0001:0000929d   241 0001:000092a8   242 0001:000092b2
+   244 0001:000092db   245 0001:000092df   246 0001:000092ee   247 0001:000092f7
+   249 0001:000092fe   252 0001:0000930b   255 0001:00009315   258 0001:00009320
+   261 0001:00009323   265 0001:00009327   267 0001:00009338   268 0001:00009371
+   271 0001:00009380   276 0001:00009391   277 0001:0000939f   278 0001:000093a7
+   289 0001:000093ad   292 0001:000093b5   281 0001:000093b8   282 0001:000093c3
+   292 0001:000093d1   285 0001:000093d4   286 0001:000093df   292 0001:000093ed
+   289 0001:000093f0   292 0001:00009403
+
+Line numbers for .\Release\svchost.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common/resetssdt.h) segment .text
+
+    93 0001:000087f0    98 0001:000087f1    99 0001:0000881a   122 0001:00008822
+   101 0001:00008824   102 0001:0000882e   122 0001:00008836   113 0001:00008838
+   115 0001:00008857   122 0001:0000885f   118 0001:00008861   119 0001:00008879
+   121 0001:00008883   122 0001:00008889   124 0001:00008890   127 0001:00008896
+   130 0001:00008898   131 0001:000088b9   132 0001:000088cc   131 0001:000088cd
+   132 0001:000088cf   140 0001:000088d0   147 0001:000088e8   148 0001:000088ee
+   149 0001:000088f6   152 0001:000088f8   153 0001:00008906   154 0001:0000890b
+   156 0001:0000890d   157 0001:00008918   158 0001:0000891d   145 0001:0000891e
+   158 0001:00008920   162 0001:00008930   172 0001:00008936   176 0001:00008958
+   178 0001:0000897f   182 0001:00008981   187 0001:0000898e   188 0001:000089a7
+   189 0001:000089ba   192 0001:000089be   195 0001:000089d6   199 0001:000089de
+   187 0001:000089eb   214 0001:000089f7   215 0001:000089fa   202 0001:000089fc
+   222 0001:00008a0d   221 0001:00008a14   222 0001:00008a17   225 0001:00008a20
+   229 0001:00008a27   239 0001:00008a2b   241 0001:00008a4a   242 0001:00008a5c
+   243 0001:00008a67   244 0001:00008a74   249 0001:00008a83   252 0001:00008a8b
+   254 0001:00008a8f   257 0001:00008a91   258 0001:00008aac   262 0001:00008ab4
+   265 0001:00008abf   270 0001:00008acf   272 0001:00008ad1   280 0001:00008ae1
+   284 0001:00008af6   286 0001:00008b0f   287 0001:00008b17   290 0001:00008b48
+   292 0001:00008b53   295 0001:00008b60   297 0001:00008b64   298 0001:00008b72
+   300 0001:00008b76   301 0001:00008b89   304 0001:00008b95   305 0001:00008ba3
+   307 0001:00008ba6   309 0001:00008bac   312 0001:00008bb0   314 0001:00008bbf
+   316 0001:00008bc3   317 0001:00008bd6   319 0001:00008be2   320 0001:00008bed
+   322 0001:00008bf0   324 0001:00008bf6   327 0001:00008c00   329 0001:00008c0b
+   344 0001:00008c0e   332 0001:00008c0f   334 0001:00008c36   335 0001:00008c3c
+   344 0001:00008c3f   337 0001:00008c40   338 0001:00008c49   344 0001:00008c51
+   340 0001:00008c53   341 0001:00008c59   342 0001:00008c70   343 0001:00008c77
+   344 0001:00008c7c   347 0001:00008c80   357 0001:00008c83   361 0001:00008c8b
+   362 0001:00008c91   375 0001:00008c93   377 0001:00008d07   378 0001:00008d17
+   380 0001:00008d27   382 0001:00008d37   383 0001:00008d4b   384 0001:00008d57
+   394 0001:00008d59   386 0001:00008d5d   388 0001:00008d73   392 0001:00008d80
+   394 0001:00008d9a   397 0001:00008da0   400 0001:00008daf   403 0001:00008dbc
+   413 0001:00008dc4   415 0001:00008de3   418 0001:00008de7   419 0001:00008e02
+   420 0001:00008e05   422 0001:00008e11   423 0001:00008e20   426 0001:00008e30
+   428 0001:00008e40   430 0001:00008e45   431 0001:00008e4e   436 0001:00008e51
+   433 0001:00008e52   434 0001:00008e58   435 0001:00008e61   436 0001:00008e64
+
+Line numbers for .\Release\svchost.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common/login.h) segment .text
+
+    24 0001:000082c0    27 0001:000082c4    28 0001:000082c8    34 0001:000082d3
+    35 0001:00008315    36 0001:0000831b    41 0001:00008321    45 0001:00008346
+    47 0001:00008359    48 0001:0000835b    50 0001:0000835e    52 0001:0000836e
+    56 0001:00008374    58 0001:00008379    62 0001:00008387    64 0001:0000839b
+    65 0001:000083a0    67 0001:000083a3    69 0001:000083af    73 0001:000083b7
+    74 0001:000083bc    77 0001:000083ca    78 0001:000083d8    82 0001:000083e0
+    83 0001:000083e7    84 0001:000083f4   132 0001:000083f7    93 0001:000083fe
+    95 0001:0000842f    96 0001:00008468   132 0001:0000846c   101 0001:00008473
+   102 0001:00008486   103 0001:0000848f   132 0001:00008492   104 0001:00008499
+   105 0001:000084ae   106 0001:000084b7   132 0001:000084ba   106 0001:000084c2
+   110 0001:000084d1   111 0001:000084e1   113 0001:000084fa   115 0001:00008518
+   116 0001:0000851b   119 0001:0000852c   120 0001:00008539   122 0001:0000854f
+   124 0001:00008559   125 0001:00008584   126 0001:00008589   128 0001:0000858d
+   129 0001:000085a2   131 0001:000085a9   132 0001:000085b1   137 0001:000085c0
+   140 0001:000085c3   141 0001:000085cc   142 0001:000085d0   143 0001:000085e5
+   144 0001:00008606   145 0001:00008611   146 0001:00008615   149 0001:00008620
+   150 0001:00008626   153 0001:00008629   156 0001:0000862f   159 0001:0000864f
+   162 0001:00008660   164 0001:00008666   165 0001:0000868b   166 0001:00008698
+   167 0001:000086b0   169 0001:000086cc   170 0001:000086dc   172 0001:000086e4
+   173 0001:000086ea   176 0001:00008700   184 0001:00008708   189 0001:00008729
+   195 0001:00008743   198 0001:0000877e   199 0001:00008782   201 0001:000087a0
+   202 0001:000087ac   205 0001:000087b1   207 0001:000087bf   210 0001:000087da
+
+Line numbers for .\Release\svchost.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common/decode.h) segment .text
+
+    13 0001:00008110    20 0001:00008114    21 0001:00008138    22 0001:0000813a
+    18 0001:00008147    22 0001:0000814a    23 0001:00008156    24 0001:00008162
+    32 0001:0000816a    33 0001:0000817b    37 0001:00008183    39 0001:00008185
+    40 0001:0000818e    41 0001:00008196    42 0001:00008198    43 0001:000081a1
+    44 0001:000081a5    50 0001:000081a7    51 0001:000081b3    61 0001:000081b8
+    62 0001:000081c1    64 0001:000081ca    65 0001:000081cf    66 0001:000081d8
+    67 0001:000081dd    53 0001:000081ef    55 0001:000081f9    56 0001:00008202
+    57 0001:00008206    61 0001:00008208    59 0001:00008211    75 0001:00008215
+    70 0001:00008217    72 0001:0000821f    74 0001:00008230    75 0001:00008236
+     4 0001:00008240     7 0001:0000824f     9 0001:0000825f    10 0001:00008262
+     8 0001:00008263    10 0001:00008268    78 0001:00008270    81 0001:00008271
+    83 0001:0000828b    85 0001:00008292    86 0001:0000829f    88 0001:000082b1
+    89 0001:000082b6    88 0001:000082b8    89 0001:000082bc
+
+Line numbers for .\Release\ShellManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\ShellManager.cpp) segment .text
+
+    12 0001:00007c80    13 0001:00007cb2    14 0001:00007cba    15 0001:00007ccf
+    16 0001:00007cd3    27 0001:00007ced    29 0001:00007d37    30 0001:00007d46
+    31 0001:00007d53    34 0001:00007d58    36 0001:00007d6e    37 0001:00007d7d
+    38 0001:00007d8a    41 0001:00007d8f    42 0001:00007d9c    44 0001:00007da0
+    49 0001:00007db7    51 0001:00007dc3    52 0001:00007dee    55 0001:00007e17
+    57 0001:00007e43    58 0001:00007e4f    59 0001:00007e55    60 0001:00007e5b
+    61 0001:00007e60    63 0001:00007e62    64 0001:00007e66    67 0001:00007e6a
+    68 0001:00007e83    69 0001:00007e8a    70 0001:00007e9f    71 0001:00007ebd
+    74 0001:00007f00    75 0001:00007f04    76 0001:00007f18    77 0001:00007f24
+    78 0001:00007f2c    79 0001:00007f3b    81 0001:00007f43    82 0001:00007f50
+    83 0001:00007f53    84 0001:00007f5a    85 0001:00007f5d    86 0001:00007f64
+    87 0001:00007f67    88 0001:00007f6e    90 0001:00007f71    91 0001:00007f7d
+    92 0001:00007f83    93 0001:00007f89    95 0001:00007f8f    96 0001:00007f95
+    97 0001:00007f9b    98 0001:00007fa1    99 0001:00007fa7   102 0001:00007fc0
+   105 0001:00007fd6   111 0001:00007fdb   110 0001:00007fdf   111 0001:00007ff3
+   114 0001:00008000   122 0001:00008007   124 0001:00008047   126 0001:0000804f
+   127 0001:0000805c   128 0001:00008069   130 0001:00008082   131 0001:0000808f
+   119 0001:000080b6   138 0001:000080c0   141 0001:000080c4   143 0001:000080c8
+   144 0001:000080e7   145 0001:000080f3   146 0001:000080ff   147 0001:00008107
+   148 0001:0000810a
+
+Line numbers for .\Release\ScreenSpy.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\ScreenSpy.cpp) segment .text
+
+    19 0001:000071a0    21 0001:00007274    27 0001:0000729b    28 0001:0000729e
+    30 0001:000072a0    33 0001:000072a7    35 0001:000072b2    36 0001:000072b8
+    39 0001:000072c8    41 0001:000072cf    42 0001:000072d3    43 0001:000072d9
+    44 0001:000072e0    46 0001:000072e9    47 0001:000072ff    48 0001:00007309
+    52 0001:00007312    53 0001:00007324    54 0001:0000732d    55 0001:00007336
+    59 0001:0000733c    60 0001:0000735a    61 0001:00007370    63 0001:00007384
+    64 0001:0000739b    65 0001:000073ac    67 0001:000073c0    68 0001:000073d6
+    69 0001:000073e0    71 0001:000073f0    74 0001:00007404    75 0001:00007412
+    78 0001:00007420    81 0001:00007490    82 0001:000074b5    83 0001:000074ce
+    84 0001:000074da    85 0001:000074e0    86 0001:000074e6    88 0001:000074ef
+    89 0001:000074fb    90 0001:00007501    92 0001:0000750a    93 0001:00007511
+    94 0001:0000751a    95 0001:00007523    96 0001:0000752c    97 0001:0000753e
+   101 0001:00007570   103 0001:00007575   106 0001:00007590   112 0001:00007595
+   116 0001:000075a5   117 0001:000075b0   120 0001:000075be   121 0001:0000760d
+   124 0001:0000761b   127 0001:00007620   129 0001:0000763d   130 0001:00007665
+   158 0001:0000766b   135 0001:00007671   137 0001:00007682   140 0001:000076a1
+   142 0001:000076a6   144 0001:000076b2   140 0001:000076b5   147 0001:000076bf
+   149 0001:000076c3   153 0001:000076d3   154 0001:000076fb   155 0001:0000770c
+   157 0001:00007716   158 0001:0000771d   104 0001:00007726   158 0001:00007729
+   163 0001:00007730   166 0001:00007733   168 0001:0000775a   170 0001:00007762
+   172 0001:00007786   174 0001:0000779b   176 0001:000077a6   177 0001:000077ad
+   178 0001:000077b2   172 0001:000077b5   181 0001:000077b9   184 0001:000077d0
+   186 0001:000077d8   187 0001:000077e4   188 0001:000077f3   189 0001:000077fc
+   191 0001:0000780b   192 0001:00007819   196 0001:0000781c   195 0001:00007823
+   196 0001:00007826   198 0001:00007830   200 0001:0000783f   203 0001:00007850
+   208 0001:00007855   211 0001:00007873   224 0001:00007880   227 0001:000078a4
+   228 0001:000078cf   235 0001:000078d5   236 0001:000078de   237 0001:000078e9
+   238 0001:000078fc   239 0001:00007905   241 0001:0000790c   243 0001:00007917
+   245 0001:00007920   246 0001:00007958   250 0001:00007964   251 0001:0000796a
+   254 0001:00007970   256 0001:00007995   257 0001:000079a0   260 0001:000079b0
+   261 0001:000079b3   262 0001:000079d5   263 0001:000079d9   266 0001:000079e0
+   267 0001:000079e5   270 0001:000079eb   278 0001:000079f3   279 0001:00007a48
+   280 0001:00007a53   281 0001:00007a70   283 0001:00007a90   284 0001:00007a9a
+   286 0001:00007aad   287 0001:00007abc   290 0001:00007ac0   292 0001:00007ac6
+   296 0001:00007ad0   299 0001:00007add   300 0001:00007ae2   301 0001:00007aed
+   304 0001:00007af0   306 0001:00007af3   309 0001:00007b00   312 0001:00007b0f
+   313 0001:00007b16   310 0001:00007b17   312 0001:00007b19   313 0001:00007b20
+   316 0001:00007b30   317 0001:00007b34   318 0001:00007b3b   320 0001:00007b3f
+   321 0001:00007b50   322 0001:00007b56   324 0001:00007b66   325 0001:00007b6a
+   351 0001:00007b70   357 0001:00007b80   359 0001:00007b84   360 0001:00007b89
+   363 0001:00007b8e   364 0001:00007bae   366 0001:00007bc0   370 0001:00007bd0
+   382 0001:00007bf4   386 0001:00007bfa   393 0001:00007bfd   394 0001:00007c01
+   396 0001:00007c0a   397 0001:00007c0f   399 0001:00007c15   401 0001:00007c1b
+   405 0001:00007c21   406 0001:00007c23   407 0001:00007c2f   399 0001:00007c3f
+   410 0001:00007c45   411 0001:00007c51   415 0001:00007c68   483 0001:00007c6c
+   415 0001:00007c6f   483 0001:00007c73
+
+Line numbers for .\Release\ScreenManager.obj(../../common\CursorInfo.h) segment .text
+
+    51 0001:00006720    53 0001:00006737    54 0001:00006745
+
+Line numbers for .\Release\ScreenManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\ScreenManager.cpp) segment .text
+
+    14 0001:00006590    17 0001:00006676    23 0001:000066b5    24 0001:000066e2
+    25 0001:000066f9    28 0001:000067b0    29 0001:000067d6    30 0001:000067ec
+    31 0001:000067f4    32 0001:00006802    33 0001:0000680a    34 0001:00006816
+    36 0001:0000681c    37 0001:00006826    38 0001:0000682c    41 0001:00006870
+    43 0001:00006889    44 0001:00006899    46 0001:000068a3    48 0001:000068b3
+    49 0001:000068bc    50 0001:000068e8    51 0001:000068eb    53 0001:00006919
+    55 0001:00006947    56 0001:00006960    61 0001:0000696f    62 0001:0000698b
+    65 0001:000069b0    69 0001:000069cc    72 0001:000069ee   112 0001:000069f5
+    75 0001:00006a08   112 0001:00006a15    78 0001:00006a28    79 0001:00006a2b
+   112 0001:00006a3f    82 0001:00006a52   112 0001:00006a57    87 0001:00006a6a
+    88 0001:00006a71    89 0001:00006a7f   112 0001:00006a8a    93 0001:00006a9d
+   112 0001:00006aa8    96 0001:00006abb   112 0001:00006ac6    99 0001:00006ad9
+   100 0001:00006adc   112 0001:00006af0   103 0001:00006b03   112 0001:00006b0a
+   106 0001:00006b1d   112 0001:00006b2b   111 0001:00006b3e   112 0001:00006b44
+   115 0001:00006b80   116 0001:00006b8d   117 0001:00006b9a   119 0001:00006bad
+   120 0001:00006bc8   121 0001:00006be1   122 0001:00006bf3   125 0001:00006c00
+   129 0001:00006c0b   130 0001:00006c18   133 0001:00006c1c   134 0001:00006c2a
+   135 0001:00006c35   139 0001:00006c39   141 0001:00006c4c   142 0001:00006c5c
+   143 0001:00006c69   146 0001:00006c70   149 0001:00006c75   151 0001:00006c8c
+   154 0001:00006c98   155 0001:00006c9b   156 0001:00006ca6   159 0001:00006caa
+   160 0001:00006cad   163 0001:00006cb7   165 0001:00006cce   166 0001:00006cdb
+   169 0001:00006ce0   170 0001:00006cfb   172 0001:00006cff   175 0001:00006d09
+   177 0001:00006d10   179 0001:00006d17   180 0001:00006d1e   181 0001:00006d25
+   182 0001:00006d2e   185 0001:00006d34   189 0001:00006d50   195 0001:00006d73
+   197 0001:00006d75   200 0001:00006d80   201 0001:00006d8b   202 0001:00006d9a
+   207 0001:00006da8   209 0001:00006daf   210 0001:00006db9   211 0001:00006dcc
+   213 0001:00006dd3   215 0001:00006dd5   217 0001:00006dde   218 0001:00006de8
+   219 0001:00006dfb   222 0001:00006e02   225 0001:00006e0d   226 0001:00006e18
+   229 0001:00006e39   230 0001:00006e40   231 0001:00006e44   234 0001:00006e50
+   239 0001:00006e68   242 0001:00006e6d   245 0001:00006e7d   249 0001:00006e99
+   262 0001:00006eaa   263 0001:00006eb6   264 0001:00006ebe   272 0001:00006ecd
+   304 0001:00006efd   305 0001:00006f16   308 0001:00006f1b   309 0001:00006f34
+   272 0001:00006f39   277 0001:00006f47   278 0001:00006f51   274 0001:00006f56
+   275 0001:00006f60   286 0001:00006f65   287 0001:00006f71   288 0001:00006f7b
+   272 0001:00006f7d   280 0001:00006f8e   281 0001:00006f98   283 0001:00006f9a
+   284 0001:00006fa4   290 0001:00006fa6   291 0001:00006fb2   292 0001:00006fbc
+   294 0001:00006fbe   295 0001:00006fc8   297 0001:00006fca   298 0001:00006fd4
+   300 0001:00006fd6   245 0001:00006fec   314 0001:00007002   317 0001:00007030
+   321 0001:0000703e   322 0001:00007044   323 0001:00007056   325 0001:0000705b
+   326 0001:00007062   327 0001:00007073   328 0001:0000707f   329 0001:00007088
+   331 0001:00007090   332 0001:00007098   335 0001:000070a0   336 0001:000070a8
+   338 0001:000070b4   339 0001:000070be   341 0001:000070c6   353 0001:000070cd
+   344 0001:000070d4   345 0001:000070dd   346 0001:000070e5   348 0001:000070ed
+   349 0001:0000710a   350 0001:00007115   351 0001:0000711b   352 0001:00007126
+   353 0001:00007133   358 0001:00007140   362 0001:0000714d   363 0001:0000716b
+   362 0001:0000716d   363 0001:00007173   366 0001:00007180   371 0001:00007190
+   373 0001:00007193
+
+Line numbers for .\Release\RegEditEx.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\RegEditEx.cpp) segment .text
+
+     4 0001:00005f30     8 0001:00005f42    10 0001:00005f53    12 0001:00005f58
+    13 0001:00005f5e    70 0001:00005f60    72 0001:00005f86    77 0001:00005f8b
+    78 0001:00005f9a    79 0001:00005fa7    81 0001:00005fb4    84 0001:00005fb7
+    86 0001:00005fd6   177 0001:00005fdd   187 0001:00005fe9   188 0001:00005fec
+    90 0001:00005ffd    93 0001:00006010    96 0001:00006024    97 0001:0000602b
+    99 0001:00006054   102 0001:00006065   104 0001:00006067   105 0001:0000606e
+   107 0001:00006093   110 0001:000060ad   111 0001:000060bc   107 0001:000060cf
+   113 0001:000060df   177 0001:00006103   187 0001:00006116   188 0001:00006119
+   118 0001:0000612a   119 0001:00006131   121 0001:00006156   124 0001:0000616f
+   126 0001:00006171   127 0001:00006177   131 0001:0000619d   135 0001:000061a2
+   136 0001:000061b1   137 0001:000061b8   139 0001:000061ea   140 0001:00006206
+   141 0001:00006232   142 0001:00006239   147 0001:00006244   148 0001:00006253
+   149 0001:00006260   150 0001:0000626d   151 0001:00006274   152 0001:0000627b
+   155 0001:000062b6   157 0001:000062ca   158 0001:000062d6   160 0001:000062d8
+   161 0001:000062fc   163 0001:000062fe   164 0001:00006329   166 0001:0000632b
+   167 0001:00006343   169 0001:00006345   172 0001:00006362   173 0001:00006373
+   174 0001:0000637a   183 0001:0000637f   184 0001:0000638b   187 0001:00006395
+   188 0001:00006398   191 0001:00006400   194 0001:00006423   196 0001:00006428
+   200 0001:0000642b   202 0001:0000643e   205 0001:00006465   208 0001:00006485
+   215 0001:0000649e   217 0001:000064bb   211 0001:000064c0   221 0001:000064e4
+   223 0001:000064e6   225 0001:00006502   227 0001:00006514   229 0001:00006516
+   231 0001:00006532   232 0001:00006544   241 0001:00006557   242 0001:0000655a
+   238 0001:0000656b   239 0001:00006577   242 0001:0000657e
+
+Line numbers for .\Release\Manager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\Manager.cpp) segment .text
+
+    12 0001:00005e10    13 0001:00005e13    14 0001:00005e17    21 0001:00005e26
+    22 0001:00005e37    25 0001:00005e60    27 0001:00005e70    29 0001:00005e80
+    34 0001:00005e90    38 0001:00005eab    41 0001:00005ec9    39 0001:00005edc
+    41 0001:00005ee2    44 0001:00005f00    47 0001:00005f0c    48 0001:00005f17
+    51 0001:00005f20    53 0001:00005f2a
+
+Line numbers for .\Release\KeyboardManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\KeyboardManager.h) segment .text
+
+    49 0001:00005a10    52 0001:00005a33    53 0001:00005a38    54 0001:00005a3d
+    56 0001:00005a40    59 0001:00005a53    63 0001:00005a56    70 0001:00005a6a
+    86 0001:00005a86    90 0001:00005a98    91 0001:00005aad    96 0001:00005ab1
+   104 0001:00005abf   108 0001:00005ad5   112 0001:00005ae7   119 0001:00005afa
+   120 0001:00005aff   121 0001:00005b12   125 0001:00005b14   115 0001:00005b27
+   116 0001:00005b2c   124 0001:00005b3b   125 0001:00005b3d
+
+Line numbers for .\Release\KeyboardManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\KeyboardManager.cpp) segment .text
+
+    13 0001:000053d0    19 0001:000053e0    22 0001:0000540e    23 0001:00005424
+    24 0001:0000542b    26 0001:00005432    28 0001:0000543a    30 0001:0000544d
+    35 0001:00005459    36 0001:0000545b    38 0001:0000545d    40 0001:0000546d
+    42 0001:00005474    45 0001:00005488    46 0001:00005495    47 0001:0000549c
+    50 0001:000054e0    52 0001:000054e6    55 0001:000054f0    57 0001:000054f1
+    59 0001:00005518    61 0001:00005529    62 0001:00005530    65 0001:0000553d
+    66 0001:0000554a    67 0001:00005555    68 0001:0000555f    69 0001:0000556b
+    70 0001:0000557b    72 0001:00005582    73 0001:0000558f    76 0001:000055a0
+    77 0001:000055a7    80 0001:000055b8    82 0001:000055c6    84 0001:000055db
+    86 0001:000055e1    88 0001:000055f0    90 0001:000055f3    94 0001:0000560d
+   103 0001:00005618   105 0001:00005680   108 0001:00005696   110 0001:0000569d
+   114 0001:000056ac   116 0001:000056ba   117 0001:000056c9   119 0001:000056d7
+   120 0001:000056e5   121 0001:000056ef   124 0001:00005700   128 0001:00005703
+   136 0001:00005727   141 0001:00005759   143 0001:0000575e   145 0001:00005771
+   146 0001:00005773   147 0001:00005779   150 0001:0000578a   151 0001:000057a4
+   152 0001:000057bb   153 0001:000057c2   156 0001:000057dc   158 0001:000057e9
+   160 0001:000057f6   162 0001:000057f8   176 0001:00005806   181 0001:00005813
+   164 0001:00005819   166 0001:0000581e   176 0001:00005823   181 0001:00005830
+   172 0001:00005836   175 0001:00005861   176 0001:00005876   181 0001:00005888
+   185 0001:00005890   187 0001:0000589c   189 0001:000058a1   191 0001:000058b3
+   192 0001:000058c3   193 0001:000058cf   194 0001:000058d9   197 0001:000058ea
+   198 0001:00005908   201 0001:0000590b   204 0001:0000591c   205 0001:00005934
+   207 0001:0000593a   210 0001:00005940   211 0001:00005943   212 0001:0000597f
+   213 0001:000059a0   214 0001:000059a9   217 0001:000059b3   220 0001:000059c7
+   223 0001:000059ea   222 0001:000059ee   223 0001:00005a05   226 0001:00005b90
+   256 0001:00005b99   230 0001:00005b9b   232 0001:00005baa   234 0001:00005bb1
+   235 0001:00005bbc   241 0001:00005bc1   242 0001:00005c0a   245 0001:00005c1f
+   246 0001:00005c35   247 0001:00005c3e   248 0001:00005c40   250 0001:00005c4a
+   252 0001:00005c57   255 0001:00005c75   256 0001:00005c77   259 0001:00005c80
+   261 0001:00005c8c   262 0001:00005c93   264 0001:00005ca0   265 0001:00005cad
+   266 0001:00005cb9   267 0001:00005cc3   270 0001:00005cd0   273 0001:00005cd1
+   275 0001:00005cdb   276 0001:00005cee   279 0001:00005cf0   281 0001:00005cf4
+   282 0001:00005d00   284 0001:00005d09   286 0001:00005d20   287 0001:00005d30
+   288 0001:00005d39   289 0001:00005d3f   292 0001:00005d50   297 0001:00005d59
+   298 0001:00005d71   300 0001:00005d81   301 0001:00005d9e   303 0001:00005da4
+   304 0001:00005dae   305 0001:00005db9   307 0001:00005dc9   308 0001:00005dcf
+   309 0001:00005ddd   310 0001:00005de6   312 0001:00005df2   313 0001:00005df9
+   314 0001:00005dfe
+
+Line numbers for .\Release\KernelManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\KernelManager.cpp) segment .text
+
+    19 0001:00004f40    20 0001:00004f68    22 0001:00004f84    24 0001:00004f8b
+    25 0001:00004f93    26 0001:00004f9d    27 0001:00004fa5    29 0001:00004fad
+    30 0001:00004fb1    37 0001:00004fb5    39 0001:00004fed    42 0001:00005040
+    43 0001:00005044    45 0001:00005064    46 0001:0000506b    48 0001:00005084
+    51 0001:00005090    55 0001:000050b3   116 0001:000050c3    59 0001:000050c6
+    60 0001:000050db    63 0001:000050e0    64 0001:000050f5    67 0001:000050f7
+    68 0001:0000510c    71 0001:0000510e    72 0001:00005123    75 0001:00005125
+    76 0001:0000513a    79 0001:0000513c    80 0001:00005151    83 0001:00005153
+   116 0001:0000518f    88 0001:00005192    89 0001:000051bf   116 0001:000051ce
+    92 0001:000051d1   116 0001:000051de    95 0001:000051e1   116 0001:000051ee
+   101 0001:000051f1   116 0001:000051f7   104 0001:000051fa   116 0001:00005209
+   107 0001:0000520c   116 0001:0000521b   110 0001:0000521e   111 0001:0000522c
+   116 0001:00005234   119 0001:000052b0   123 0001:000052b6   124 0001:000052ce
+   125 0001:000052e0   126 0001:000052eb   129 0001:000052f7   130 0001:00005314
+   131 0001:00005327   136 0001:00005339   137 0001:00005348   138 0001:00005357
+   140 0001:00005365   142 0001:0000536b   144 0001:00005380   146 0001:00005382
+   149 0001:0000538a   150 0001:000053a1   153 0001:000053b0   155 0001:000053b6
+
+Line numbers for .\Release\KernelManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\inject.h) segment .text
+
+    46 0001:00004bf0    50 0001:00004bf3    51 0001:00004c0b    68 0001:00004c0d
+    52 0001:00004c11    54 0001:00004c27    55 0001:00004c32    68 0001:00004c34
+    58 0001:00004c38    60 0001:00004c40    62 0001:00004c74    63 0001:00004c7f
+    68 0001:00004c81    65 0001:00004c85    67 0001:00004c90    68 0001:00004c92
+    71 0001:00004ca0    77 0001:00004ca5    80 0001:00004cb4    81 0001:00004cc1
+    82 0001:00004ccd   107 0001:00004cd1    84 0001:00004cd7    85 0001:00004ce6
+   107 0001:00004cea    87 0001:00004cf0    89 0001:00004cf7    90 0001:00004d08
+   107 0001:00004d0c    92 0001:00004d12    97 0001:00004d1a    99 0001:00004d1e
+   101 0001:00004d2d   102 0001:00004d31   103 0001:00004d35   104 0001:00004d39
+   106 0001:00004d3f   107 0001:00004d42   110 0001:00004d50   111 0001:00004d5a
+   113 0001:00004d5f   115 0001:00004d7d   116 0001:00004d88   169 0001:00004d8b
+   121 0001:00004d92   122 0001:00004dac   123 0001:00004dbc   124 0001:00004dc8
+   125 0001:00004dd4   126 0001:00004de0   127 0001:00004dec   128 0001:00004df8
+   129 0001:00004e04   131 0001:00004e11   132 0001:00004e1a   133 0001:00004e22
+   135 0001:00004e29   136 0001:00004e32   137 0001:00004e3a   138 0001:00004e46
+   140 0001:00004e4d   141 0001:00004e62   142 0001:00004e71   148 0001:00004e84
+   149 0001:00004ea1   150 0001:00004ea8   169 0001:00004eab   151 0001:00004eb2
+   152 0001:00004ecf   169 0001:00004ed2   157 0001:00004ed9   159 0001:00004eec
+   160 0001:00004ef3   169 0001:00004ef6   162 0001:00004efd   163 0001:00004f14
+   169 0001:00004f17   165 0001:00004f1e   169 0001:00004f38
+
+Line numbers for .\Release\KernelManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\loop.h) segment .text
+
+    18 0001:00004220    19 0001:0000423b    20 0001:00004244    21 0001:00004267
+    26 0001:0000427e    22 0001:00004295    23 0001:000042a6    25 0001:000042b7
+    26 0001:000042df    29 0001:00004300    30 0001:0000431b    31 0001:00004324
+    32 0001:00004347    39 0001:0000435e    34 0001:00004375    36 0001:00004383
+    38 0001:00004394    39 0001:000043b9    42 0001:000043e0    43 0001:000043fb
+    44 0001:00004404    45 0001:00004427    51 0001:0000443e    47 0001:00004455
+    49 0001:00004466    50 0001:00004477    51 0001:0000449f    55 0001:000044c0
+    56 0001:000044db    57 0001:000044e4    58 0001:00004507    62 0001:0000451e
+    59 0001:00004535    60 0001:00004543    61 0001:00004554    62 0001:00004579
+    66 0001:000045a0    67 0001:000045bb    68 0001:000045c4    69 0001:000045e7
+    73 0001:000045fe    70 0001:00004615    71 0001:00004623    72 0001:00004634
+    73 0001:00004659    76 0001:00004680    78 0001:00004686    79 0001:00004698
+    81 0001:000046a8    88 0001:000046c5    89 0001:000046db    90 0001:000046e0
+    91 0001:000046f4    86 0001:000046f9    98 0001:00004700    99 0001:0000471b
+   100 0001:00004724   101 0001:00004747   108 0001:0000475e   103 0001:00004775
+   105 0001:00004783   107 0001:00004794   108 0001:000047b9   111 0001:000047e0
+   112 0001:000047fb   113 0001:00004804   114 0001:00004827   121 0001:0000483e
+   116 0001:00004855   118 0001:00004863   120 0001:00004874   121 0001:00004899
+   124 0001:000048c0   128 0001:000048c3   129 0001:000048d6   152 0001:000048db
+   132 0001:000048e1   134 0001:000048eb   136 0001:000048fa   137 0001:0000490e
+   138 0001:00004912   152 0001:00004915   140 0001:0000491b   142 0001:0000492b
+   152 0001:0000492e   145 0001:00004934   149 0001:0000493f   151 0001:0000496b
+   152 0001:00004971   157 0001:00004980   160 0001:00004985   161 0001:00004998
+   162 0001:0000499b   171 0001:0000499e   163 0001:000049a2   171 0001:000049b2
+   166 0001:000049b6   170 0001:000049c3   171 0001:000049fd   175 0001:00004a10
+   176 0001:00004a16   177 0001:00004a2b   185 0001:00004a31   187 0001:00004a3c
+   188 0001:00004a62   189 0001:00004a68   190 0001:00004a7e   192 0001:00004a89
+   193 0001:00004a96   195 0001:00004a98   196 0001:00004aab   197 0001:00004aad
+   199 0001:00004aaf   201 0001:00004ab7   204 0001:00004ac4   205 0001:00004ad7
+   207 0001:00004adf   209 0001:00004b06   210 0001:00004b09   213 0001:00004b10
+   214 0001:00004b14   218 0001:00004b47   219 0001:00004b50   221 0001:00004b54
+   222 0001:00004b59   224 0001:00004b72   227 0001:00004b80   229 0001:00004b86
+   230 0001:00004b95   231 0001:00004bad   232 0001:00004bdd
+
+Line numbers for .\Release\install.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\install.cpp) segment .text
+
+     5 0001:00003cc0     8 0001:00003ce6    10 0001:00003cf4    13 0001:00003cf7
+    16 0001:00003d0c    17 0001:00003d24    20 0001:00003d2c    23 0001:00003d3e
+    27 0001:00003d47    29 0001:00003d5b    31 0001:00003d66    33 0001:00003d6d
+    34 0001:00003d7c    35 0001:00003d95    45 0001:00003db3    37 0001:00003dc4
+    39 0001:00003dd0    40 0001:00003dd4    41 0001:00003ddb    42 0001:00003ddf
+    48 0001:00003df0    51 0001:00003df6    52 0001:00003e06    54 0001:00003e24
+    56 0001:00003e52    57 0001:00003e71    59 0001:00003e82    60 0001:00003e89
+    63 0001:00003e9d    66 0001:00003eb0    70 0001:00003ecc    72 0001:00003eda
+    73 0001:00003ee3    74 0001:00003ef0    76 0001:00003f00    77 0001:00003f04
+    74 0001:00003f05    77 0001:00003f0b    82 0001:00003f10    86 0001:00003f16
+    88 0001:00003f38    89 0001:00003f54    91 0001:00003f5a   109 0001:00003f5d
+    94 0001:00003f64    95 0001:00003f74    96 0001:00003f83    97 0001:00003f97
+    99 0001:00003f9e   100 0001:00003fb6   102 0001:00003fbb   103 0001:00003fc4
+   109 0001:00003fc8   107 0001:00003fcf   109 0001:00003fd3   112 0001:00003fe0
+   119 0001:00004001   120 0001:00004029   121 0001:00004055   122 0001:00004070
+   124 0001:00004074   128 0001:00004089   129 0001:000040ab   130 0001:000040b2
+   131 0001:000040b6   135 0001:000040cb   137 0001:000040d7   139 0001:000040dd
+   141 0001:000040e3   142 0001:000040ed   206 0001:00004100   213 0001:00004121
+   214 0001:00004146   215 0001:00004172   216 0001:0000418d   218 0001:00004191
+   222 0001:000041a6   223 0001:000041c9   224 0001:000041d5   225 0001:000041dc
+   226 0001:000041e0   230 0001:000041f5   232 0001:000041fb   234 0001:00004205
+
+Line numbers for .\Release\FileManager.obj(E:\vc\VC98\INCLUDE\new) segment .text
+
+    45 0001:00003c50
+
+Line numbers for .\Release\FileManager.obj(E:\vc\VC98\INCLUDE\xmemory) segment .text
+
+    64 0001:00003ad0    34 0001:00003ae0
+
+Line numbers for .\Release\FileManager.obj(E:\vc\VC98\INCLUDE\list) segment .text
+
+   151 0001:00003a30   152 0001:00003a73   153 0001:00003a7f   386 0001:00003a90
+   388 0001:00003a97   389 0001:00003aa6   390 0001:00003ab1   389 0001:00003ab4
+   390 0001:00003ab7   108 0001:00003ac0   109 0001:00003ac2   110 0001:00003ac6
+
+Line numbers for .\Release\FileManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\FileManager.cpp) segment .text
+
+    17 0001:00002630    20 0001:0000267f    21 0001:00002698    24 0001:000026d0
+    25 0001:000026f8    26 0001:0000273c    29 0001:000027d0    33 0001:000027ee
+    77 0001:000027f8    36 0001:000027fb    37 0001:00002803    77 0001:0000280d
+    41 0001:00002810    42 0001:00002819    77 0001:00002823    45 0001:00002826
+    77 0001:00002830    48 0001:00002833    77 0001:0000283d    51 0001:00002840
+    77 0001:0000284a    54 0001:0000284d    77 0001:00002857    57 0001:0000285a
+    77 0001:00002862    60 0001:00002865    77 0001:0000286f    63 0001:00002872
+    77 0001:0000287c    66 0001:0000287f    77 0001:0000288f    72 0001:00002892
+    77 0001:0000289e    72 0001:000028a1    77 0001:000028ad    81 0001:000028f0
+    87 0001:00002916    89 0001:0000291d    91 0001:00002937    92 0001:00002939
+    94 0001:0000293f    96 0001:00002947   101 0001:0000294c   103 0001:00002959
+   104 0001:0000295e   108 0001:00002962   110 0001:0000296c   111 0001:00002975
+   115 0001:00002977   117 0001:0000297c   122 0001:00002980   124 0001:0000298a
+   125 0001:00002993   129 0001:00002995   135 0001:0000299a   137 0001:000029a4
+   138 0001:000029a9   142 0001:000029ad   144 0001:000029b7   148 0001:000029c1
+   150 0001:000029c7   152 0001:000029cb   153 0001:000029ce   156 0001:000029d4
+   158 0001:000029d9   160 0001:000029e6   162 0001:000029f3   163 0001:000029f4
+   169 0001:000029f6   172 0001:000029fd   173 0001:000029fe   177 0001:00002a00
+   180 0001:00002a03   181 0001:00002a0f   190 0001:00002a18   191 0001:00002a22
+   192 0001:00002a24   183 0001:00002a37   186 0001:00002a40   187 0001:00002a54
+   192 0001:00002a56   194 0001:00002a70   200 0001:00002a7a   202 0001:00002a85
+   203 0001:00002aa2   204 0001:00002aa9   239 0001:00002aac   206 0001:00002ab5
+   207 0001:00002ad6   239 0001:00002ad9   208 0001:00002ae2   209 0001:00002afb
+   210 0001:00002b08   211 0001:00002b18   213 0001:00002b33   214 0001:00002b55
+   239 0001:00002b58   215 0001:00002b61   217 0001:00002b6c   218 0001:00002b88
+   220 0001:00002b8f   221 0001:00002ba4   222 0001:00002ba8   224 0001:00002bb7
+   226 0001:00002bbb   227 0001:00002bcd   229 0001:00002bdc   230 0001:00002bde
+   232 0001:00002bed   235 0001:00002bfa   236 0001:00002c0d   238 0001:00002c15
+   239 0001:00002c3f   241 0001:00002c50   248 0001:00002c57   256 0001:00002c77
+   258 0001:00002caa   260 0001:00002cb5   262 0001:00002ccd   264 0001:00002ceb
+   265 0001:00002cfd   268 0001:00002d0e   270 0001:00002d30   271 0001:00002d42
+   273 0001:00002d5a   275 0001:00002d5c   276 0001:00002d5e   279 0001:00002d62
+   280 0001:00002d65   285 0001:00002d73   288 0001:00002d77   289 0001:00002da5
+   291 0001:00002dcf   294 0001:00002ded   295 0001:00002e01   299 0001:00002e10
+   310 0001:00002e19   313 0001:00002e20   315 0001:00002e3a   316 0001:00002e58
+   318 0001:00002e6b   321 0001:00002e74   368 0001:00002e8a   324 0001:00002e94
+   327 0001:00002e98   336 0001:00002ea3   338 0001:00002ead   339 0001:00002eb3
+   342 0001:00002ec3   345 0001:00002f3b   348 0001:00002f3f   349 0001:00002f50
+   350 0001:00002f62   352 0001:00002f67   355 0001:00002f6f   356 0001:00002f76
+   359 0001:00002f7e   360 0001:00002f90   361 0001:00002f93   363 0001:00002fab
+   365 0001:00002fb6   366 0001:00002fbf   367 0001:00002fcb   368 0001:00002fd0
+   372 0001:00002fe0   376 0001:00002fe6   378 0001:0000300c   379 0001:00003021
+   380 0001:00003029   408 0001:0000302c   384 0001:00003035   386 0001:0000303c
+   389 0001:00003041   390 0001:0000305b   392 0001:0000306a   395 0001:0000306c
+   396 0001:00003079   399 0001:00003087   401 0001:00003097   403 0001:0000309e
+   408 0001:000030ae   413 0001:000030c0   420 0001:000030c5   421 0001:000030cd
+   423 0001:000030da   424 0001:00003114   425 0001:0000311b   442 0001:0000311e
+   426 0001:00003124   427 0001:00003131   429 0001:0000313a   430 0001:00003146
+   431 0001:0000314f   433 0001:00003165   435 0001:00003168   436 0001:0000316c
+   437 0001:0000316f   439 0001:00003183   440 0001:0000319c   441 0001:000031a6
+   442 0001:000031ab   445 0001:000031c0   456 0001:000031d1   457 0001:000031d8
+   491 0001:000031db   460 0001:000031de   461 0001:000031fc   462 0001:00003203
+   491 0001:00003206   464 0001:00003209   470 0001:00003218   474 0001:0000322f
+   475 0001:00003254   478 0001:0000325b   480 0001:00003263   481 0001:00003266
+   488 0001:0000326f   490 0001:00003278   491 0001:0000327e   485 0001:00003281
+   488 0001:0000328c   490 0001:00003293   491 0001:00003299   494 0001:000032a0
+   497 0001:000032a4   499 0001:000032d0   501 0001:000032d9   509 0001:000032e4
+   506 0001:000032e5   507 0001:000032e8   509 0001:00003303   511 0001:00003310
+   513 0001:0000331c   516 0001:00003320   518 0001:0000333b   520 0001:0000334f
+   521 0001:00003357   523 0001:00003364   524 0001:0000336b   529 0001:00003370
+   532 0001:0000340f   534 0001:00003412   537 0001:0000342b   540 0001:00003450
+   546 0001:0000346d   547 0001:00003497   548 0001:000034a0   549 0001:000034a2
+   551 0001:000034ae   554 0001:000034c8   555 0001:000034db   556 0001:000034e4
+   560 0001:000034ee   562 0001:000034f9   565 0001:000034fe   566 0001:00003516
+   568 0001:0000352a   571 0001:0000352f   572 0001:00003539   575 0001:0000363b
+   577 0001:00003653   578 0001:0000365e   579 0001:00003661   582 0001:00003680
+   583 0001:00003685   584 0001:00003690   585 0001:0000372c   586 0001:00003737
+   589 0001:00003740   593 0001:00003746   599 0001:0000376d   603 0001:0000379a
+   609 0001:000037a8   611 0001:000037bf   617 0001:000037c8   618 0001:000037d3
+   615 0001:000037dc   617 0001:000037e3   618 0001:000037ee   621 0001:00003800
+   624 0001:0000380a   635 0001:0000381e   636 0001:00003820   632 0001:00003822
+   633 0001:00003827   626 0001:00003829   627 0001:0000382e   629 0001:00003830
+   639 0001:00003836   644 0001:00003845   648 0001:00003847   652 0001:0000385d
+   654 0001:00003862   655 0001:00003866   656 0001:00003872   659 0001:00003877
+   662 0001:0000387e   664 0001:00003880   668 0001:0000388d   671 0001:00003894
+   672 0001:0000389c   675 0001:000038a1   678 0001:000038a3   680 0001:000038a5
+   682 0001:000038b8   694 0001:000038bf   696 0001:000038d7   698 0001:000038dd
+   704 0001:000038f3   701 0001:000038fa   703 0001:00003901   704 0001:00003911
+   707 0001:00003920   721 0001:00003924   722 0001:0000392d   737 0001:00003930
+   739 0001:00003952   750 0001:00003967   753 0001:0000397d   758 0001:00003984
+   759 0001:00003988   761 0001:0000398c   762 0001:000039ad   764 0001:000039c0
+   766 0001:000039c9   767 0001:000039ce   770 0001:000039e0   772 0001:000039ed
+   773 0001:000039f7   776 0001:00003a00   779 0001:00003a13   780 0001:00003a1b
+   781 0001:00003a26
+
+Line numbers for .\Release\Dialupass.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\Dialupass.h) segment .text
+
+    55 0001:00002500    58 0001:0000250d    59 0001:0000251a    61 0001:00002523
+    62 0001:00002536    63 0001:00002560
+
+Line numbers for .\Release\Dialupass.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\Dialupass.cpp) segment .text
+
+    11 0001:00001840    12 0001:00001849    13 0001:00001850    14 0001:00001855
+    15 0001:0000185f    16 0001:00001870    19 0001:00001882    20 0001:0000189a
+    23 0001:000018c0    24 0001:000018c4    25 0001:000018d3    26 0001:000018eb
+    27 0001:000018f4    28 0001:00001900    29 0001:00001908    32 0001:00001910
+    36 0001:0000191a    37 0001:00001934    38 0001:00001951    39 0001:00001962
+    40 0001:0000196e    41 0001:00001982    43 0001:000019a2    44 0001:000019a6
+    47 0001:000019ad    51 0001:000019d0    52 0001:000019db    53 0001:000019eb
+    55 0001:000019f3    49 0001:00001a0c    58 0001:00001a1a    59 0001:00001a20
+    60 0001:00001a2b    63 0001:00001a40    69 0001:00001a46    71 0001:00001a4f
+    76 0001:00001a53    90 0001:00001a5a    79 0001:00001a61    90 0001:00001a8a
+    80 0001:00001a91    90 0001:00001aa0    85 0001:00001aa8    86 0001:00001ab5
+    87 0001:00001ac1    88 0001:00001ad1    89 0001:00001ad8    90 0001:00001add
+    94 0001:00001af0    96 0001:00001b09    97 0001:00001b10    98 0001:00001b1c
+    99 0001:00001b3c   103 0001:00001b40   110 0001:00001b43   111 0001:00001b54
+   112 0001:00001b67   119 0001:00001b6f   113 0001:00001b75   114 0001:00001b86
+   115 0001:00001b9a   119 0001:00001ba2   116 0001:00001ba8   117 0001:00001bb2
+   119 0001:00001bc0   122 0001:00001bd0   126 0001:00001bd9   128 0001:00001c0f
+   130 0001:00001c2a   131 0001:00001c31   133 0001:00001c39   135 0001:00001c3a
+   145 0001:00001c4f   146 0001:00001c53   147 0001:00001c8f   148 0001:00001ca4
+   149 0001:00001cab   141 0001:00001cad   142 0001:00001cb1   143 0001:00001ce1
+   137 0001:00001ce3   138 0001:00001ce7   154 0001:00001d1e   156 0001:00001d35
+   157 0001:00001d39   159 0001:00001d3a   128 0001:00001d41   161 0001:00001d52
+   164 0001:00001d60   166 0001:00001d69   167 0001:00001d81   170 0001:00001daf
+   172 0001:00001dd5   173 0001:00001de3   175 0001:00001de7   176 0001:00001df6
+   179 0001:00001dff   180 0001:00001e0d   182 0001:00001e11   183 0001:00001e20
+   185 0001:00001e2c   189 0001:00001e40   194 0001:00001e4a   195 0001:00001e5f
+   196 0001:00001e7f   197 0001:00001e93   198 0001:00001ea2   199 0001:00001eb6
+   207 0001:00001ed9   209 0001:00001f02   211 0001:00001f16   215 0001:00001f1d
+   219 0001:00001f3c   220 0001:00001f47   221 0001:00001f5e   223 0001:00001f68
+   229 0001:00001f74   230 0001:00001f84   231 0001:00001f92   232 0001:00001fa0
+   233 0001:00001fae   237 0001:00001fbc   239 0001:00001fdb   241 0001:00001fdf
+   243 0001:00001fea   245 0001:00002014   246 0001:00002037   247 0001:0000204c
+   248 0001:00002057   255 0001:0000205e   257 0001:00002080   258 0001:00002098
+   259 0001:000020a9   261 0001:000020b8   262 0001:000020e0   263 0001:000020ea
+   264 0001:000020f0   221 0001:0000210e   217 0001:00002112   267 0001:0000212c
+   269 0001:00002135   270 0001:0000213b   273 0001:00002150   274 0001:00002152
+   275 0001:00002175   291 0001:000021c5   293 0001:000021ce   277 0001:000021f9
+   278 0001:00002205   279 0001:00002257   280 0001:0000225f   281 0001:000022b1
+   282 0001:000022b9   283 0001:0000230b   284 0001:00002313   285 0001:00002365
+   286 0001:0000236d   287 0001:000023be   304 0001:000023c4   293 0001:000023c8
+   294 0001:000023d0   295 0001:00002428   296 0001:00002481   297 0001:00002496
+   298 0001:000024ab   299 0001:000024c0   300 0001:000024d5   301 0001:000024df
+   304 0001:000024e5   303 0001:000024ec   304 0001:000024ef   307 0001:000025b0
+   310 0001:000025c9   311 0001:000025d0   312 0001:000025d6   314 0001:000025e3
+   315 0001:000025f5   317 0001:00002608   318 0001:00002611   319 0001:00002617
+   309 0001:0000261b   319 0001:00002621
+
+Line numbers for .\Release\ClientSocket.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\ClientSocket.cpp) segment .text
+
+    24 0001:00000b50    26 0001:00000bad    27 0001:00000bc3    31 0001:00000bd1
+    32 0001:00000be5    33 0001:00000c0d    36 0001:00000c50    38 0001:00000c74
+    40 0001:00000c92    41 0001:00000c9b    43 0001:00000ca2    44 0001:00000cb1
+    45 0001:00000cba    46 0001:00000cc0    49 0001:00000d10    51 0001:00000d19
+    53 0001:00000d1e    54 0001:00000d2b    56 0001:00000d32    57 0001:00000d48
+   125 0001:00000d4b    58 0001:00000d51    60 0001:00000d5d    62 0001:00000d6b
+   125 0001:00000d6e    66 0001:00000d74    67 0001:00000d81    68 0001:00000d86
+    69 0001:00000d88    71 0001:00000d91    72 0001:00000d98   125 0001:00000d9b
+    77 0001:00000da1    78 0001:00000db5    79 0001:00000dbd    80 0001:00000dbf
+    82 0001:00000dcb    84 0001:00000dce    85 0001:00000df2   125 0001:00000df5
+    92 0001:00000dfb   125 0001:00000e15   100 0001:00000e1b   118 0001:00000e3f
+   122 0001:00000e7b   124 0001:00000ea0   125 0001:00000ea6   130 0001:00000eb0
+   143 0001:00000ebb   146 0001:00000ef5   150 0001:00000f03   151 0001:00000f0b
+   153 0001:00000f2d   155 0001:00000f31   161 0001:00000f38   162 0001:00000f40
+   239 0001:00000f43   158 0001:00000f4c   159 0001:00000f68   166 0001:00000f89
+   168 0001:00000fa8   169 0001:00000fb5   171 0001:00000fc7   174 0001:00000fd3
+   176 0001:00000ffb   180 0001:00001011   188 0001:0000102d   190 0001:00001063
+   193 0001:00001066   196 0001:0000106c   197 0001:00001088   200 0001:0000109f
+   204 0001:000010a5   205 0001:000010b3   206 0001:000010b5   209 0001:000010bb
+   210 0001:000010c0   211 0001:000010c5   212 0001:000010ca   213 0001:000010cf
+   214 0001:000010d4   216 0001:000010e8   219 0001:00001103   223 0001:00001111
+   225 0001:0000113b   227 0001:0000113f   239 0001:00001151   231 0001:0000115a
+   232 0001:00001176   238 0001:0000118d   239 0001:00001190   161 0001:00001199
+   162 0001:000011a8   239 0001:000011ab   241 0001:000011c0   246 0001:000011cb
+   247 0001:000011db   249 0001:000011fc   250 0001:0000120c   251 0001:00001224
+   256 0001:00001229   258 0001:0000122d   259 0001:0000123b   260 0001:00001254
+   265 0001:00001258   269 0001:00001276   270 0001:0000127a   262 0001:00001283
+   269 0001:0000128d   270 0001:00001291   273 0001:000012a0   275 0001:000012af
+   278 0001:000012b0   280 0001:000012b6   283 0001:000012c0   286 0001:000012db
+   288 0001:000012f4   361 0001:000012f9   291 0001:0000130c   294 0001:00001322
+   361 0001:00001340   299 0001:00001353   303 0001:00001362   306 0001:0000136e
+   308 0001:00001379   309 0001:00001399   311 0001:000013ae   312 0001:000013b0
+   315 0001:000013be   319 0001:000013d9   320 0001:000013e9   321 0001:000013f6
+   327 0001:00001403   328 0001:00001409   329 0001:0000140f   331 0001:00001423
+   334 0001:00001433   338 0001:0000143c   340 0001:00001454   342 0001:00001458
+   343 0001:00001465   344 0001:00001474   349 0001:00001496   350 0001:0000149c
+   354 0001:000014ab   347 0001:000014b0   332 0001:000014c5   357 0001:000014da
+   358 0001:000014e5   359 0001:000014f0   364 0001:00001500   372 0001:00001504
+   374 0001:00001530   375 0001:0000153d   376 0001:0000154c   378 0001:00001559
+   380 0001:00001566   381 0001:00001571   384 0001:00001580   386 0001:0000158d
+   388 0001:00001597   391 0001:000015a3   392 0001:000015c4   394 0001:000015d3
+   434 0001:000015db   397 0001:000015e1   399 0001:000015f9   401 0001:000015fd
+   402 0001:00001606   434 0001:0000160d   406 0001:00001613   408 0001:00001617
+   410 0001:0000162e   412 0001:0000163c   414 0001:0000164a   415 0001:00001657
+   418 0001:0000165d   419 0001:00001667   420 0001:00001676   421 0001:0000168e
+   422 0001:0000169b   423 0001:0000169f   425 0001:000016a8   433 0001:000016ac
+   434 0001:000016ce   427 0001:000016d4   428 0001:000016e4   429 0001:000016ee
+   438 0001:00001700   447 0001:0000171e   449 0001:00001726   450 0001:00001737
+   453 0001:00001749   456 0001:00001750   458 0001:00001754   461 0001:0000176a
+   463 0001:0000176e   465 0001:00001770   466 0001:00001781   469 0001:0000178b
+   470 0001:0000178e   471 0001:00001790   473 0001:00001794   474 0001:0000179e
+   476 0001:000017a0   477 0001:000017a7   480 0001:000017b0   482 0001:000017ba
+   486 0001:000017c0   492 0001:000017ce   493 0001:000017ff   495 0001:00001807
+   496 0001:0000180b   497 0001:0000181a   498 0001:00001822   499 0001:0000182b
+   500 0001:00001835
+
+Line numbers for .\Release\Buffer.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\Buffer.cpp) segment .text
+
+    36 0001:000007a0    38 0001:000007a3    40 0001:000007a8    41 0001:000007ae
+    42 0001:000007be    61 0001:000007f0    62 0001:000007f3    63 0001:00000800
+    64 0001:0000080e    65 0001:00000819    85 0001:00000820    86 0001:00000826
+    87 0001:00000834    89 0001:0000084e    90 0001:00000857    99 0001:0000085a
+    93 0001:0000085e    96 0001:00000876    97 0001:0000087e    98 0001:0000088a
+    99 0001:0000088f   153 0001:000008a0   154 0001:000008a6   156 0001:000008b4
+   158 0001:000008c3   159 0001:000008cc   183 0001:000008cf   163 0001:000008d3
+   164 0001:000008de   167 0001:000008e7   171 0001:000008eb   174 0001:00000903
+   176 0001:0000091b   179 0001:0000092b   181 0001:0000093a   182 0001:00000941
+   183 0001:00000946   202 0001:00000950   204 0001:00000953   223 0001:00000960
+   225 0001:00000967   230 0001:00000969   228 0001:0000096a   230 0001:0000096f
+   249 0001:00000970   250 0001:00000978   251 0001:00000987   277 0001:0000098a
+   254 0001:00000990   257 0001:000009bc   258 0001:000009d1   259 0001:000009db
+   277 0001:000009df   261 0001:000009e6   262 0001:000009ed   264 0001:00000a04
+   265 0001:00000a0c   269 0001:00000a1e   274 0001:00000a22   276 0001:00000a2b
+   277 0001:00000a32   296 0001:00000a40   297 0001:00000a47   298 0001:00000a55
+   323 0001:00000a58   301 0001:00000a5e   303 0001:00000a8a   304 0001:00000a99
+   323 0001:00000a9c   307 0001:00000aa4   309 0001:00000ab6   310 0001:00000ac1
+   312 0001:00000acd   315 0001:00000ae7   318 0001:00000aeb   320 0001:00000af5
+   322 0001:00000af8   323 0001:00000b00   373 0001:00000b10   374 0001:00000b14
+   376 0001:00000b1e   378 0001:00000b21   379 0001:00000b30   380 0001:00000b39
+   429 0001:00000b40   431 0001:00000b49
+
+Line numbers for .\Release\AudioManager.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\Server\svchost\common\AudioManager.cpp) segment .text
+
+    13 0001:000004f0    14 0001:00000517    18 0001:00000530    20 0001:00000543
+    22 0001:0000054a    24 0001:00000565    27 0001:000005a0    28 0001:000005c3
+    29 0001:000005ca    31 0001:000005de    32 0001:000005eb    35 0001:00000610
+    36 0001:00000629    37 0001:00000633    47 0001:00000636    40 0001:00000645
+    41 0001:0000064e    47 0001:00000651    43 0001:00000660    47 0001:00000685
+    50 0001:000006a0    53 0001:000006a8    54 0001:000006c1    55 0001:000006c7
+    65 0001:000006ca    56 0001:000006ce    57 0001:000006df    58 0001:000006e2
+    60 0001:000006f7    61 0001:000006ff    62 0001:00000709    64 0001:00000714
+    65 0001:0000071a    61 0001:0000071e    62 0001:00000722    64 0001:0000072b
+    65 0001:00000731    68 0001:00000740    71 0001:00000756    75 0001:0000075b
+    74 0001:0000075e    75 0001:00000768    78 0001:00000770    81 0001:0000077e
+    83 0001:0000078e    84 0001:00000792    83 0001:00000795    84 0001:00000798
+
+Line numbers for .\Release\Audio.obj(E:\vc\DrakFire\Src\gh0st3[1].6_src\common\Audio.cpp) segment .text
+
+    12 0001:00000000    14 0001:0000001a    15 0001:00000026    16 0001:00000029
+    17 0001:0000002c    18 0001:0000002f    20 0001:00000036    21 0001:00000039
+    25 0001:00000044    26 0001:0000004d    28 0001:00000059    29 0001:00000062
+    32 0001:00000078    34 0001:0000008e    35 0001:00000093    36 0001:00000099
+    37 0001:000000a0    38 0001:000000a7    39 0001:000000ad    40 0001:000000b1
+    41 0001:000000b7    42 0001:000000bd    45 0001:000000f0    46 0001:000000f6
+    48 0001:00000103    49 0001:0000010d    51 0001:00000125    52 0001:00000136
+    53 0001:00000140    56 0001:0000014c    58 0001:00000153    60 0001:0000016b
+    61 0001:0000017c    65 0001:00000186    67 0001:0000018e    68 0001:00000197
+    70 0001:0000019f    71 0001:000001a8    74 0001:000001ba    75 0001:000001c6
+    76 0001:000001cc    77 0001:000001d6    80 0001:000001e0    82 0001:000001e4
+    83 0001:000001f5    92 0001:000001f8    85 0001:000001fb    86 0001:00000204
+    92 0001:00000207    88 0001:0000020a    89 0001:00000214    90 0001:00000220
+    91 0001:00000225    92 0001:0000022e    95 0001:00000240    96 0001:00000243
+   106 0001:00000254    99 0001:00000257   101 0001:00000262   102 0001:00000270
+   103 0001:00000294   105 0001:000002b1   106 0001:000002b4   109 0001:000002c0
+   110 0001:000002c5   111 0001:000002d0   139 0001:000002d3   115 0001:000002d5
+   116 0001:000002f4   118 0001:00000316   119 0001:0000031b   139 0001:0000031e
+   121 0001:00000322   123 0001:0000032a   127 0001:0000032f   130 0001:00000359
+   132 0001:0000036c   133 0001:00000376   135 0001:0000037f   139 0001:00000388
+   142 0001:00000390   144 0001:00000396   145 0001:000003a3   166 0001:000003a6
+   147 0001:000003a7   148 0001:000003af   151 0001:000003ca   152 0001:000003e3
+   153 0001:000003ea   166 0001:000003ed   155 0001:000003ee   157 0001:000003f6
+   161 0001:000003fb   164 0001:00000426   166 0001:0000042f   169 0001:00000430
+   173 0001:00000433   175 0001:00000466   178 0001:00000470   180 0001:00000476
+   182 0001:0000047e   184 0001:00000488   185 0001:00000498   191 0001:0000049c
+   194 0001:000004a6   195 0001:000004b1   198 0001:000004d4   199 0001:000004d7
+   186 0001:000004e0   199 0001:000004e4

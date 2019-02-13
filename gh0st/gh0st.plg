@@ -1,0 +1,230 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gh0st - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\yakun\AppData\Local\Temp\RSP4A2.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "CJ60lib/Include" /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/gh0st.pch" /YX"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Gh0st\common\Audio.cpp"
+"E:\Gh0st\gh0st\AudioDlg.cpp"
+"E:\Gh0st\gh0st\BmpToAvi.cpp"
+"E:\Gh0st\gh0st\control\BtnST.cpp"
+"E:\Gh0st\gh0st\include\Buffer.cpp"
+"E:\Gh0st\gh0st\BuildView.cpp"
+"E:\Gh0st\gh0st\include\CpuUsage.cpp"
+"E:\Gh0st\gh0st\CustomTabCtrl.cpp"
+"E:\Gh0st\gh0st\FileManagerDlg.cpp"
+"E:\Gh0st\gh0st\FileTransferModeDlg.cpp"
+"E:\Gh0st\gh0st\gh0st.cpp"
+"E:\Gh0st\gh0st\gh0stDoc.cpp"
+"E:\Gh0st\gh0st\gh0stView.cpp"
+"E:\Gh0st\gh0st\control\HoverEdit.cpp"
+"E:\Gh0st\gh0st\IniFile.cpp"
+"E:\Gh0st\gh0st\InputDlg.cpp"
+"E:\Gh0st\gh0st\include\IOCPServer.cpp"
+"E:\Gh0st\gh0st\KeyBoardDlg.cpp"
+"E:\Gh0st\gh0st\MainFrm.cpp"
+"E:\Gh0st\gh0st\ScreenSpyDlg.cpp"
+"E:\Gh0st\gh0st\SettingsView.cpp"
+"E:\Gh0st\gh0st\SEU_QQwry.cpp"
+"E:\Gh0st\gh0st\ShellDlg.cpp"
+"E:\Gh0st\gh0st\SystemDlg.cpp"
+"E:\Gh0st\gh0st\TabSDIFrameWnd.cpp"
+"E:\Gh0st\gh0st\ThemeUtil.cpp"
+"E:\Gh0st\gh0st\TrayIcon.cpp"
+"E:\Gh0st\gh0st\TrueColorToolBar.cpp"
+"E:\Gh0st\gh0st\WebCamDlg.cpp"
+"E:\Gh0st\gh0st\control\WinXPButtonST.cpp"
+]
+Creating command line "cl.exe @C:\Users\yakun\AppData\Local\Temp\RSP4A2.tmp" 
+Creating temporary file "C:\Users\yakun\AppData\Local\Temp\RSP4A3.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "CJ60lib/Include" /I "../common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/gh0st.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Gh0st\gh0st\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\yakun\AppData\Local\Temp\RSP4A3.tmp" 
+Creating temporary file "C:\Users\yakun\AppData\Local\Temp\RSP4A4.tmp" with contents
+[
+../common/zlib/zlib.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/gh0st.pdb" /map:"Release/gh0st.map" /machine:I386 /nodefaultlib:"msvcrt.lib" /out:"../Bin/gh0st.exe" /libpath:"CJ60Lib/lib" 
+.\Release\Audio.obj
+.\Release\AudioDlg.obj
+.\Release\BmpToAvi.obj
+.\Release\BtnST.obj
+.\Release\Buffer.obj
+.\Release\BuildView.obj
+.\Release\CpuUsage.obj
+.\Release\CustomTabCtrl.obj
+.\Release\FileManagerDlg.obj
+.\Release\FileTransferModeDlg.obj
+.\Release\gh0st.obj
+.\Release\gh0stDoc.obj
+.\Release\gh0stView.obj
+.\Release\HoverEdit.obj
+.\Release\IniFile.obj
+.\Release\InputDlg.obj
+.\Release\IOCPServer.obj
+.\Release\KeyBoardDlg.obj
+.\Release\MainFrm.obj
+.\Release\ScreenSpyDlg.obj
+.\Release\SettingsView.obj
+.\Release\SEU_QQwry.obj
+.\Release\ShellDlg.obj
+.\Release\StdAfx.obj
+.\Release\SystemDlg.obj
+.\Release\TabSDIFrameWnd.obj
+.\Release\ThemeUtil.obj
+.\Release\TrayIcon.obj
+.\Release\TrueColorToolBar.obj
+.\Release\WebCamDlg.obj
+.\Release\WinXPButtonST.obj
+.\Release\gh0st.res
+]
+Creating command line "link.exe @C:\Users\yakun\AppData\Local\Temp\RSP4A4.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Automatically linking with CJ60StaticLib.lib
+Compiling...
+Audio.cpp
+AudioDlg.cpp
+Automatically linking with CJ60StaticLib.lib
+BmpToAvi.cpp
+BtnST.cpp
+Buffer.cpp
+BuildView.cpp
+CpuUsage.cpp
+CustomTabCtrl.cpp
+FileManagerDlg.cpp
+E:\Gh0st\gh0st\FileManagerDlg.cpp(167) : error C2065: 'INVALID_FILE_ATTRIBUTES' : undeclared identifier
+E:\Gh0st\gh0st\FileManagerDlg.cpp(281) : error C2065: 'SHAutoComplete' : undeclared identifier
+E:\Gh0st\gh0st\FileManagerDlg.cpp(281) : error C2065: 'SHACF_FILESYSTEM' : undeclared identifier
+E:\Gh0st\gh0st\FileManagerDlg.cpp(826) : error C2065: 'Shell_GetImageLists' : undeclared identifier
+E:\Gh0st\gh0st\FileManagerDlg.cpp(1577) : warning C4129: '*' : unrecognized character escape sequence
+E:\Gh0st\gh0st\FileManagerDlg.cpp(1864) : warning C4129: '*' : unrecognized character escape sequence
+E:\Gh0st\gh0st\FileManagerDlg.cpp(1888) : warning C4129: '*' : unrecognized character escape sequence
+E:\Gh0st\gh0st\FileManagerDlg.cpp(1905) : warning C4129: '*' : unrecognized character escape sequence
+FileTransferModeDlg.cpp
+gh0st.cpp
+gh0stDoc.cpp
+gh0stView.cpp
+../common\CursorInfo.h(28) : error C2065: 'IDC_HAND' : undeclared identifier
+../common\CursorInfo.h(28) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+../common\CursorInfo.h(59) : error C2065: 'CURSORINFO' : undeclared identifier
+../common\CursorInfo.h(59) : error C2146: syntax error : missing ';' before identifier 'ci'
+../common\CursorInfo.h(59) : error C2065: 'ci' : undeclared identifier
+../common\CursorInfo.h(60) : error C2228: left of '.cbSize' must have class/struct/union type
+../common\CursorInfo.h(61) : error C2065: 'GetCursorInfo' : undeclared identifier
+../common\CursorInfo.h(61) : error C2228: left of '.flags' must have class/struct/union type
+../common\CursorInfo.h(61) : error C2065: 'CURSOR_SHOWING' : undeclared identifier
+../common\CursorInfo.h(67) : error C2228: left of '.hCursor' must have class/struct/union type
+../common\CursorInfo.h(70) : error C2228: left of '.hCursor' must have class/struct/union type
+E:\Gh0st\gh0st\gh0stView.cpp(160) : error C2065: 'Shell_GetImageLists' : undeclared identifier
+HoverEdit.cpp
+IniFile.cpp
+InputDlg.cpp
+IOCPServer.cpp
+KeyBoardDlg.cpp
+MainFrm.cpp
+../common\CursorInfo.h(28) : error C2065: 'IDC_HAND' : undeclared identifier
+../common\CursorInfo.h(28) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+../common\CursorInfo.h(59) : error C2065: 'CURSORINFO' : undeclared identifier
+../common\CursorInfo.h(59) : error C2146: syntax error : missing ';' before identifier 'ci'
+../common\CursorInfo.h(59) : error C2065: 'ci' : undeclared identifier
+../common\CursorInfo.h(60) : error C2228: left of '.cbSize' must have class/struct/union type
+../common\CursorInfo.h(61) : error C2065: 'GetCursorInfo' : undeclared identifier
+../common\CursorInfo.h(61) : error C2228: left of '.flags' must have class/struct/union type
+../common\CursorInfo.h(61) : error C2065: 'CURSOR_SHOWING' : undeclared identifier
+../common\CursorInfo.h(67) : error C2228: left of '.hCursor' must have class/struct/union type
+../common\CursorInfo.h(70) : error C2228: left of '.hCursor' must have class/struct/union type
+ScreenSpyDlg.cpp
+../common\CursorInfo.h(28) : error C2065: 'IDC_HAND' : undeclared identifier
+../common\CursorInfo.h(28) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+../common\CursorInfo.h(59) : error C2065: 'CURSORINFO' : undeclared identifier
+../common\CursorInfo.h(59) : error C2146: syntax error : missing ';' before identifier 'ci'
+../common\CursorInfo.h(59) : error C2065: 'ci' : undeclared identifier
+../common\CursorInfo.h(60) : error C2228: left of '.cbSize' must have class/struct/union type
+../common\CursorInfo.h(61) : error C2065: 'GetCursorInfo' : undeclared identifier
+../common\CursorInfo.h(61) : error C2228: left of '.flags' must have class/struct/union type
+../common\CursorInfo.h(61) : error C2065: 'CURSOR_SHOWING' : undeclared identifier
+../common\CursorInfo.h(67) : error C2228: left of '.hCursor' must have class/struct/union type
+../common\CursorInfo.h(70) : error C2228: left of '.hCursor' must have class/struct/union type
+SettingsView.cpp
+SEU_QQwry.cpp
+ShellDlg.cpp
+SystemDlg.cpp
+TabSDIFrameWnd.cpp
+ThemeUtil.cpp
+TrayIcon.cpp
+E:\Gh0st\gh0st\TrayIcon.cpp(92) : error C2039: 'uTimeout' : is not a member of '_NOTIFYICONDATAA'
+        D:\Microsoft Visual Studio\VC98\INCLUDE\shellapi.h(500) : see declaration of '_NOTIFYICONDATAA'
+E:\Gh0st\gh0st\TrayIcon.cpp(93) : error C2039: 'dwInfoFlags' : is not a member of '_NOTIFYICONDATAA'
+        D:\Microsoft Visual Studio\VC98\INCLUDE\shellapi.h(500) : see declaration of '_NOTIFYICONDATAA'
+E:\Gh0st\gh0st\TrayIcon.cpp(93) : error C2065: 'NIIF_INFO' : undeclared identifier
+E:\Gh0st\gh0st\TrayIcon.cpp(94) : error C2065: 'NIF_INFO' : undeclared identifier
+E:\Gh0st\gh0st\TrayIcon.cpp(97) : error C2039: 'szInfo' : is not a member of '_NOTIFYICONDATAA'
+        D:\Microsoft Visual Studio\VC98\INCLUDE\shellapi.h(500) : see declaration of '_NOTIFYICONDATAA'
+E:\Gh0st\gh0st\TrayIcon.cpp(98) : error C2039: 'szInfoTitle' : is not a member of '_NOTIFYICONDATAA'
+        D:\Microsoft Visual Studio\VC98\INCLUDE\shellapi.h(500) : see declaration of '_NOTIFYICONDATAA'
+E:\Gh0st\gh0st\TrayIcon.cpp(220) : error C2039: 'szInfo' : is not a member of '_NOTIFYICONDATAA'
+        D:\Microsoft Visual Studio\VC98\INCLUDE\shellapi.h(500) : see declaration of '_NOTIFYICONDATAA'
+E:\Gh0st\gh0st\TrayIcon.cpp(221) : error C2039: 'uTimeout' : is not a member of '_NOTIFYICONDATAA'
+        D:\Microsoft Visual Studio\VC98\INCLUDE\shellapi.h(500) : see declaration of '_NOTIFYICONDATAA'
+E:\Gh0st\gh0st\TrayIcon.cpp(222) : error C2039: 'uVersion' : is not a member of '_NOTIFYICONDATAA'
+        D:\Microsoft Visual Studio\VC98\INCLUDE\shellapi.h(500) : see declaration of '_NOTIFYICONDATAA'
+E:\Gh0st\gh0st\TrayIcon.cpp(222) : error C2065: 'NOTIFYICON_VERSION' : undeclared identifier
+TrueColorToolBar.cpp
+WebCamDlg.cpp
+WinXPButtonST.cpp
+Error executing cl.exe.
+Creating temporary file "C:\Users\yakun\AppData\Local\Temp\RSP20E7.tmp" with contents
+[
+/nologo /o"Release/gh0st.bsc" 
+.\Release\StdAfx.sbr
+.\Release\Audio.sbr
+.\Release\AudioDlg.sbr
+.\Release\BmpToAvi.sbr
+.\Release\BtnST.sbr
+.\Release\Buffer.sbr
+.\Release\BuildView.sbr
+.\Release\CpuUsage.sbr
+.\Release\CustomTabCtrl.sbr
+.\Release\FileManagerDlg.sbr
+.\Release\FileTransferModeDlg.sbr
+.\Release\gh0st.sbr
+.\Release\gh0stDoc.sbr
+.\Release\gh0stView.sbr
+.\Release\HoverEdit.sbr
+.\Release\IniFile.sbr
+.\Release\InputDlg.sbr
+.\Release\IOCPServer.sbr
+.\Release\KeyBoardDlg.sbr
+.\Release\MainFrm.sbr
+.\Release\ScreenSpyDlg.sbr
+.\Release\SettingsView.sbr
+.\Release\SEU_QQwry.sbr
+.\Release\ShellDlg.sbr
+.\Release\SystemDlg.sbr
+.\Release\TabSDIFrameWnd.sbr
+.\Release\ThemeUtil.sbr
+.\Release\TrayIcon.sbr
+.\Release\TrueColorToolBar.sbr
+.\Release\WebCamDlg.sbr
+.\Release\WinXPButtonST.sbr]
+Creating command line "bscmake.exe @C:\Users\yakun\AppData\Local\Temp\RSP20E7.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+gh0st.exe - 48 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
