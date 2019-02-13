@@ -6,7 +6,7 @@ echo Visual c++/.Net junk
 echo ----------------------------------------------------
 pause
 
-del /F /Q /S *.aps *.idb *.ncp *.obj *.pch *.sbr *.tmp *.pdb *.bsc *.ilk *.res *.ncb *.opt *.suo *.manifest *.dep
+del /F /Q /S  *.aps *.idb *.ncp *.obj *.pch *.sbr *.tmp *.pdb *.bsc *.ilk *.sdf *.ncb *.dep *.ipch *.tlog *.dll *.exp
 
 
 pause

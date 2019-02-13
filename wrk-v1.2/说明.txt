@@ -1,0 +1,26 @@
+/*
+首发超级简单 wrk，集成手动编译，集成sln可VS直接编译（vs2005 vs2008）
+tag wrk vs2005 vs2008 wrk.chm
+任何问题 mailto 804981988@qq.com
+希望对大家有所帮助
+*/
+
+1. 【手动编译方法】
+x86 运行 build_wrk_86.bat
+amd64 运行 build_wrk_amd64.bat
+约1-2分钟，编译出的内核文件 \base\ntos\build\exe\xxx.exe
+
+2. 【visual studio编译】
+VS2005 打开 WRK_VS2005.sln 
+VS2008 打开 WRK_VS2008.sln
+选择 x86 或 amd64 方式后，可以直接build , clean, rebuild 
+生成路径 \base\ntos\build\exe\xxx.exe
+配合Visual Assist（VC助手），方便的阅读WRK源码，函数跳转
+如果需要 VS2010 或者以上版本请 mailto 804981988@qq.com 
+
+3. 【wrk.chm】
+很方便的查阅WRK内核函数，格式类似 msdn 文档
+编译内核后产生的导出函数文件 D:\WRK-v1.2\base\ntos\build\exe\wrkxxx.def
+该文件中的函数可以在该chm中查看详细说明，包括 源码路径，函数声明，函数描述，各个参数，返回值等说明
+
+解压密码 804981988
